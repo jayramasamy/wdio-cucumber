@@ -1,0 +1,49 @@
+{
+  "uid" : "8f4f2a6e92bd1790",
+  "name" : "I search for cola",
+  "fullName" : "Sanity Test Golden Path sanity test for a single delivery order.I search for cola",
+  "historyId" : "d2df96b77b15db81d37072024f181b",
+  "time" : {
+    "start" : 1504175741783,
+    "stop" : 0,
+    "duration" : -1504175741783
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search for cola"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "8f4f2a6e92bd1790.json",
+  "parameterValues" : [ ]
+}

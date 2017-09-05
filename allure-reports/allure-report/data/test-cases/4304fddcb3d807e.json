@@ -1,0 +1,98 @@
+{
+  "uid" : "4304fddcb3d807e",
+  "name" : "I find the item title",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I find the item title",
+  "historyId" : "c25ddf86a5f4b86ce0475632635e2642",
+  "time" : {
+    "start" : 1504097917586,
+    "stop" : 1504097918595,
+    "duration" : 1009
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Cannot read property 'getText' of undefined",
+    "trace" : "TypeError: Cannot read property 'getText' of undefined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:47:20)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Cannot read property 'getText' of undefined",
+      "trace" : "TypeError: Cannot read property 'getText' of undefined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:47:20)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2ec27ce336f2e5cf4624ef363d82d54c/elements",
+      "time" : {
+        "start" : 1504097917589,
+        "stop" : 1504097918556,
+        "duration" : 967
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e85bb4b7734a52c",
+        "name" : "Request",
+        "source" : "9e85bb4b7734a52c.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "be5a5b7e1971d203",
+        "name" : "Response",
+        "source" : "be5a5b7e1971d203.json",
+        "type" : "application/json",
+        "size" : 1718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I find the item title"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Cannot read property 'getText' of undefined",
+    "trace" : "TypeError: Cannot read property 'getText' of undefined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:47:20)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "4304fddcb3d807e.json",
+  "parameterValues" : [ ]
+}

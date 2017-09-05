@@ -1,0 +1,243 @@
+{
+  "uid" : "da63a4be36d5730",
+  "name" : "I am signed out",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am signed out",
+  "historyId" : "9905bc7ed4b3cd4c1b4a989b3e565ae9",
+  "time" : {
+    "start" : 1504175326811,
+    "stop" : 1504175326861,
+    "duration" : 50
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/elements",
+      "time" : {
+        "start" : 1504175326820,
+        "stop" : 1504175326859,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6664334e074212a",
+        "name" : "Request",
+        "source" : "e6664334e074212a.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "fa4c42c6e8a585db",
+        "name" : "Response",
+        "source" : "fa4c42c6e8a585db.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am signed out"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fac579152dd77609",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1504175096697,
+        "stop" : 1504175107473,
+        "duration" : 10776
+      }
+    }, {
+      "uid" : "5b52b1dde2eb2ba6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504174973741,
+        "stop" : 0,
+        "duration" : -1504174973741
+      }
+    }, {
+      "uid" : "d369172190c2df34",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504174973741,
+        "stop" : 1504174973741,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "444bf9fa97c1e308",
+      "status" : "broken",
+      "statusDetails" : "brower is not defined",
+      "time" : {
+        "start" : 1504174414193,
+        "stop" : 1504174414222,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "4f7ebba714a6f6a1",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504174237479,
+        "stop" : 1504174237479,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b113db07fcdcddf7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504174237479,
+        "stop" : 0,
+        "duration" : -1504174237479
+      }
+    }, {
+      "uid" : "24a0d9882cfa6c8c",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173856735,
+        "stop" : 1504173856735,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e3f397d425d8159a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173856735,
+        "stop" : 0,
+        "duration" : -1504173856735
+      }
+    }, {
+      "uid" : "f1ef5233bae7c11d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173718724,
+        "stop" : 1504173718724,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3501ef3c16c3c101",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173718722,
+        "stop" : 0,
+        "duration" : -1504173718722
+      }
+    }, {
+      "uid" : "e152c1dfd94a8908",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173422934,
+        "stop" : 1504173422934,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "256082814b67e392",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173422931,
+        "stop" : 0,
+        "duration" : -1504173422931
+      }
+    }, {
+      "uid" : "bb9ab099e71e365a",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173247988,
+        "stop" : 1504173247988,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "581e5ff160cd5a6c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173247987,
+        "stop" : 0,
+        "duration" : -1504173247987
+      }
+    }, {
+      "uid" : "1edc1dee8585a9fb",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173207669,
+        "stop" : 1504173207669,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d5dedb46afd0c48",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173207666,
+        "stop" : 0,
+        "duration" : -1504173207666
+      }
+    }, {
+      "uid" : "81f775fe06554841",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173155133,
+        "stop" : 1504173155133,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d04f3a2b5e67a15",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173155131,
+        "stop" : 0,
+        "duration" : -1504173155131
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "da63a4be36d5730.json",
+  "parameterValues" : [ ]
+}

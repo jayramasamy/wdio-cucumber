@@ -1,0 +1,251 @@
+{
+  "uid" : "3b445988eba7311e",
+  "name" : "I should be logged into the grocery site",
+  "fullName" : "login Login valid credentials.I should be logged into the grocery site",
+  "historyId" : "587bd2134649628577260d6905442c5c",
+  "time" : {
+    "start" : 1504021451178,
+    "stop" : 1504021451351,
+    "duration" : 173
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/be00e49a27b542125736f0fb9924a881/elements",
+      "time" : {
+        "start" : 1504021451182,
+        "stop" : 1504021451208,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62683fc78308dc8a",
+        "name" : "Request",
+        "source" : "62683fc78308dc8a.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "a6febc42c2a2456a",
+        "name" : "Response",
+        "source" : "a6febc42c2a2456a.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/be00e49a27b542125736f0fb9924a881/element/0.2715371314083532-1/displayed",
+      "time" : {
+        "start" : 1504021451208,
+        "stop" : 1504021451231,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "284bbb2a2078f0dc",
+        "name" : "Response",
+        "source" : "284bbb2a2078f0dc.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/be00e49a27b542125736f0fb9924a881/elements",
+      "time" : {
+        "start" : 1504021451238,
+        "stop" : 1504021451253,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4a4a1ac0ee61553",
+        "name" : "Request",
+        "source" : "c4a4a1ac0ee61553.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "2dd3318e787df7ba",
+        "name" : "Response",
+        "source" : "2dd3318e787df7ba.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/be00e49a27b542125736f0fb9924a881/element/0.2715371314083532-1/displayed",
+      "time" : {
+        "start" : 1504021451255,
+        "stop" : 1504021451265,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e2ac46ad28504ec",
+        "name" : "Response",
+        "source" : "5e2ac46ad28504ec.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/be00e49a27b542125736f0fb9924a881/elements",
+      "time" : {
+        "start" : 1504021451268,
+        "stop" : 1504021451295,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2ad26563293271b",
+        "name" : "Request",
+        "source" : "d2ad26563293271b.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "97dc42ed2c15d937",
+        "name" : "Response",
+        "source" : "97dc42ed2c15d937.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/be00e49a27b542125736f0fb9924a881/element/0.2715371314083532-2/displayed",
+      "time" : {
+        "start" : 1504021451296,
+        "stop" : 1504021451317,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b42b79e8b9a465c",
+        "name" : "Response",
+        "source" : "3b42b79e8b9a465c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/be00e49a27b542125736f0fb9924a881/elements",
+      "time" : {
+        "start" : 1504021451321,
+        "stop" : 1504021451335,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2fbd803054d8d7b",
+        "name" : "Request",
+        "source" : "a2fbd803054d8d7b.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "849eed9fa2bd452b",
+        "name" : "Response",
+        "source" : "849eed9fa2bd452b.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/be00e49a27b542125736f0fb9924a881/element/0.2715371314083532-2/displayed",
+      "time" : {
+        "start" : 1504021451336,
+        "stop" : 1504021451348,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4fad1e925ff9215",
+        "name" : "Response",
+        "source" : "4fad1e925ff9215.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should be logged into the grocery site"
+  }, {
+    "name" : "package",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "3b445988eba7311e.json",
+  "parameterValues" : [ ]
+}

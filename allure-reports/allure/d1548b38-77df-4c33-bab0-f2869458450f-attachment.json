@@ -1,0 +1,10 @@
+{
+    "message": "element not visible",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "status": 11,
+        "type": "ElementNotVisible",
+        "message": "An element command could not be completed because the element is not visible on the page.",
+        "orgStatusMessage": "element not visible\n  (Session info: chrome=60.0.3112.113)\n  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.11.6 x86_64)"
+    }
+}

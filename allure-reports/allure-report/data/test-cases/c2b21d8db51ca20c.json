@@ -1,0 +1,53 @@
+{
+  "uid" : "c2b21d8db51ca20c",
+  "name" : "I should see the slot details on the context card",
+  "fullName" : "Sanity Test Golden Path sanity test for a single delivery order.I should see the slot details on the context card",
+  "historyId" : "5fe70da7684e84d497aed92388a92507",
+  "time" : {
+    "start" : 1504175782125,
+    "stop" : 1504175782125,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "Test ignored",
+    "trace" : "undefined",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see the slot details on the context card"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Test ignored",
+    "trace" : "undefined",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "c2b21d8db51ca20c.json",
+  "parameterValues" : [ ]
+}

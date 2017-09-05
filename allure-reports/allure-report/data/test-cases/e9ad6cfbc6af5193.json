@@ -1,0 +1,155 @@
+{
+  "uid" : "e9ad6cfbc6af5193",
+  "name" : "I am on the my orders page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am on the my orders page",
+  "historyId" : "b3744080d68afa898e0b4487674d8711",
+  "time" : {
+    "start" : 1504174400384,
+    "stop" : 1504174403253,
+    "duration" : 2869
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/153342ee3479a472bbda86fef933ccff/element",
+      "time" : {
+        "start" : 1504174400386,
+        "stop" : 1504174400418,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dede54be3361622",
+        "name" : "Request",
+        "source" : "3dede54be3361622.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "65c2f9a83996f3c3",
+        "name" : "Response",
+        "source" : "65c2f9a83996f3c3.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/153342ee3479a472bbda86fef933ccff/element/0.39843794495548757-2/click",
+      "time" : {
+        "start" : 1504174400418,
+        "stop" : 1504174403182,
+        "duration" : 2764
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e663ed850f8660bb",
+        "name" : "Response",
+        "source" : "e663ed850f8660bb.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/153342ee3479a472bbda86fef933ccff/elements",
+      "time" : {
+        "start" : 1504174403186,
+        "stop" : 1504174403217,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90b6801956c0fd40",
+        "name" : "Request",
+        "source" : "90b6801956c0fd40.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "7987e11660ecc7ae",
+        "name" : "Response",
+        "source" : "7987e11660ecc7ae.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/153342ee3479a472bbda86fef933ccff/url",
+      "time" : {
+        "start" : 1504174403221,
+        "stop" : 1504174403244,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55ea2fca6ed63668",
+        "name" : "Response",
+        "source" : "55ea2fca6ed63668.json",
+        "type" : "application/json",
+        "size" : 133
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the my orders page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "e9ad6cfbc6af5193.json",
+  "parameterValues" : [ ]
+}

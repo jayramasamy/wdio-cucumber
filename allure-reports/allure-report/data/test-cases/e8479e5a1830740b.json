@@ -1,0 +1,49 @@
+{
+  "uid" : "e8479e5a1830740b",
+  "name" : "I should see the order confirmation page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I should see the order confirmation page",
+  "historyId" : "e564bfdae44afdf136ebdad4b8153d94",
+  "time" : {
+    "start" : 1504167107690,
+    "stop" : 0,
+    "duration" : -1504167107690
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see the order confirmation page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "e8479e5a1830740b.json",
+  "parameterValues" : [ ]
+}

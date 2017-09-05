@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Step \"I log out\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "children" : [ {
+        "name" : "I log out",
+        "uid" : "b210d3c1d2e59493",
+        "parentUid" : "1025328085429e88107077dbaf9282f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504173155127,
+          "stop" : 1504173155129,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1025328085429e88107077dbaf9282f6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

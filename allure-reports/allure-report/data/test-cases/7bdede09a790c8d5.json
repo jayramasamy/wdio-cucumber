@@ -1,0 +1,80 @@
+{
+  "uid" : "7bdede09a790c8d5",
+  "name" : "I should be taken to my orders page",
+  "fullName" : "Footer navigation links Signed in user click on my orders link on the footer.I should be taken to my orders page",
+  "historyId" : "8aef674ef5ede04fe2756218a30475be",
+  "time" : {
+    "start" : 1504087530433,
+    "stop" : 1504087530464,
+    "duration" : 31
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/c34c461f813fa72806309bdaa57d4818/url",
+      "time" : {
+        "start" : 1504087530438,
+        "stop" : 1504087530460,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ad9b0987529821a",
+        "name" : "Response",
+        "source" : "2ad9b0987529821a.json",
+        "type" : "application/json",
+        "size" : 133
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Footer navigation links Signed in user click on my orders link on the footer"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer navigation links Signed in user click on my orders link on the footer"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should be taken to my orders page"
+  }, {
+    "name" : "package",
+    "value" : "Footer navigation links Signed in user click on my orders link on the footer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "7bdede09a790c8d5.json",
+  "parameterValues" : [ ]
+}

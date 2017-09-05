@@ -1,0 +1,53 @@
+{
+  "uid" : "d95c4f6b7a6ee5ca",
+  "name" : "I provide the valid card details to confirm the order",
+  "fullName" : "Sanity Test Golden Path sanity test for a single delivery order.I provide the valid card details to confirm the order",
+  "historyId" : "fa75e4e6ece6e0e825679736b822e602",
+  "time" : {
+    "start" : 1504175741784,
+    "stop" : 1504175741784,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "Test ignored",
+    "trace" : "undefined",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I provide the valid card details to confirm the order"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Test ignored",
+    "trace" : "undefined",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "d95c4f6b7a6ee5ca.json",
+  "parameterValues" : [ ]
+}

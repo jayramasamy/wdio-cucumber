@@ -1,0 +1,98 @@
+{
+  "uid" : "cca58f147c3b7082",
+  "name" : "I have booked the 1st available delivery slot",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I have booked the 1st available delivery slot",
+  "historyId" : "f1367a07d5decdc685dc43b15401bee6",
+  "time" : {
+    "start" : 1504165414704,
+    "stop" : 1504165421628,
+    "duration" : 6924
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "deliveryPage is not defined",
+    "trace" : "ReferenceError: deliveryPage is not defined\n                    at Object.deliveryPageBase.bookFirstAvailableSlot (/Users/jayramasamy/uiautomation-wdrio/pageObjects/pages/base/deliveryPageNew.js:16:40)\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:29:25)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "deliveryPage is not defined",
+      "trace" : "ReferenceError: deliveryPage is not defined\n                    at Object.deliveryPageBase.bookFirstAvailableSlot (/Users/jayramasamy/uiautomation-wdrio/pageObjects/pages/base/deliveryPageNew.js:16:40)\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:29:25)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0b59b5333c12786e4bd8bd5452a66981/url",
+      "time" : {
+        "start" : 1504165414705,
+        "stop" : 1504165421624,
+        "duration" : 6919
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "437d84716b8f289b",
+        "name" : "Request",
+        "source" : "437d84716b8f289b.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "9aebf4d12050fec6",
+        "name" : "Response",
+        "source" : "9aebf4d12050fec6.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have booked the 1st available delivery slot"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "deliveryPage is not defined",
+    "trace" : "ReferenceError: deliveryPage is not defined\n                    at Object.deliveryPageBase.bookFirstAvailableSlot (/Users/jayramasamy/uiautomation-wdrio/pageObjects/pages/base/deliveryPageNew.js:16:40)\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:29:25)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "cca58f147c3b7082.json",
+  "parameterValues" : [ ]
+}

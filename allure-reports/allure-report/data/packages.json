@@ -1,0 +1,581 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "login Login valid credentials",
+    "children" : [ {
+      "name" : "I go to login page",
+      "uid" : "3090854e4f02dc08",
+      "parentUid" : "1587780eb0856e809ae42a95e9c5e607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087504891,
+        "stop" : 1504087507097,
+        "duration" : 2206
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should be logged into the grocery site",
+      "uid" : "bd743769383b75c3",
+      "parentUid" : "1587780eb0856e809ae42a95e9c5e607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087517143,
+        "stop" : 1504087517388,
+        "duration" : 245
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am on the grocery website",
+      "uid" : "1414aec26d9a5eb8",
+      "parentUid" : "1587780eb0856e809ae42a95e9c5e607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087492360,
+        "stop" : 1504087504873,
+        "duration" : 12513
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I login with valid credentials",
+      "uid" : "ce364bd96c3c1d92",
+      "parentUid" : "1587780eb0856e809ae42a95e9c5e607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087507100,
+        "stop" : 1504087517138,
+        "duration" : 10038
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1587780eb0856e809ae42a95e9c5e607"
+  }, {
+    "name" : "Sanity Test Golden Path sanity test for a single delivery order",
+    "children" : [ {
+      "name" : "correct item should be added to the trolley",
+      "uid" : "aabbe1fa33ac81a2",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175821703,
+        "stop" : 1504175821983,
+        "duration" : 280
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I provide the valid card details to confirm the order",
+      "uid" : "ea6fe4ebaefcc231",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175827430,
+        "stop" : 1504175839950,
+        "duration" : 12520
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I cancel the pending order and confirm confirmation",
+      "uid" : "3760af9fef9058c3",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175843088,
+        "stop" : 1504175846941,
+        "duration" : 3853
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I search for cola",
+      "uid" : "4122e40cd849cff8",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175818387,
+        "stop" : 1504175821437,
+        "duration" : 3050
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I sign out",
+      "uid" : "53b9de50949e330b",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175851451,
+        "stop" : 1504175854308,
+        "duration" : 2857
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I navigate to the home page",
+      "uid" : "c513f245d1e6f8e3",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175847051,
+        "stop" : 1504175851447,
+        "duration" : 4396
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I add the first avaialble item on search results page",
+      "uid" : "9e31bc0571e97270",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175821440,
+        "stop" : 1504175821701,
+        "duration" : 261
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I have booked the 1st available delivery slot",
+      "uid" : "cc14abd85c3053f2",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175812767,
+        "stop" : 1504175816291,
+        "duration" : 3524
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am on the my orders page",
+      "uid" : "a91bddc2ddc62cf6",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175840010,
+        "stop" : 1504175843062,
+        "duration" : 3052
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I have logged in with valid credentials",
+      "uid" : "7939da043495463d",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175798235,
+        "stop" : 1504175812763,
+        "duration" : 14528
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I checkout the order and continue to payment page",
+      "uid" : "1bafea6b90b951c",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175821991,
+        "stop" : 1504175827405,
+        "duration" : 5414
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am signed out",
+      "uid" : "368c44a7fa66ea1e",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175854318,
+        "stop" : 1504175854343,
+        "duration" : 25
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "the order should be cancelled",
+      "uid" : "5861f89ac5bf848c",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175846945,
+        "stop" : 1504175847046,
+        "duration" : 101
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see the slot details on the context card",
+      "uid" : "5c6d25203c9ef847",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175816294,
+        "stop" : 1504175818382,
+        "duration" : 2088
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see the order confirmation page",
+      "uid" : "952bf32c6f949039",
+      "parentUid" : "08f0dcb507b05da3d83e64209329c18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175839956,
+        "stop" : 1504175840007,
+        "duration" : 51
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "08f0dcb507b05da3d83e64209329c18d"
+  }, {
+    "name" : "Footer navigation links Anonymous user click on my orders link on the footer",
+    "children" : [ {
+      "name" : "I click on the my orders link on the footer",
+      "uid" : "3b4fc44750015c4f",
+      "parentUid" : "f70413a286315b8086d84df7d3c17a1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087942635,
+        "stop" : 1504087946848,
+        "duration" : 4213
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am on the home page",
+      "uid" : "b20ad3c0c857bbfe",
+      "parentUid" : "f70413a286315b8086d84df7d3c17a1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087936488,
+        "stop" : 1504087942632,
+        "duration" : 6144
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should be taken to sign in page",
+      "uid" : "c40c794823883369",
+      "parentUid" : "f70413a286315b8086d84df7d3c17a1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087946849,
+        "stop" : 1504087946871,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f70413a286315b8086d84df7d3c17a1e"
+  }, {
+    "name" : "Footer navigation links Signed in user click on my orders link on the footer",
+    "children" : [ {
+      "name" : "I have logged in with valid credentials",
+      "uid" : "3cadd4a5bdf87afe",
+      "parentUid" : "7ea4f7284798f031df252148582a3bf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087946896,
+        "stop" : 1504087960601,
+        "duration" : 13705
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I click on the my orders link on the footer",
+      "uid" : "6a26fd932c0a7def",
+      "parentUid" : "7ea4f7284798f031df252148582a3bf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087960609,
+        "stop" : 1504087965779,
+        "duration" : 5170
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should be taken to my orders page",
+      "uid" : "d171e02a842c898c",
+      "parentUid" : "7ea4f7284798f031df252148582a3bf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087965811,
+        "stop" : 1504087965845,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7ea4f7284798f031df252148582a3bf1"
+  }, {
+    "name" : "Search perform searchInputBox",
+    "children" : [ {
+      "name" : "I search for cola",
+      "uid" : "98a924e5f88d5380",
+      "parentUid" : "720e057ea4fe8f5b912fd8302a4673d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087504332,
+        "stop" : 1504087505513,
+        "duration" : 1181
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see search results",
+      "uid" : "abda2dc41156d0a2",
+      "parentUid" : "720e057ea4fe8f5b912fd8302a4673d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087505528,
+        "stop" : 1504087508701,
+        "duration" : 3173
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am on the home page",
+      "uid" : "a31049e1853893cb",
+      "parentUid" : "720e057ea4fe8f5b912fd8302a4673d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087492391,
+        "stop" : 1504087504321,
+        "duration" : 11930
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "720e057ea4fe8f5b912fd8302a4673d6"
+  }, {
+    "name" : "Sanity Test Golden Path sanity test for a single order",
+    "children" : [ {
+      "name" : "I am on the my orders page",
+      "uid" : "c163a40e3831ad40",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175312330,
+        "stop" : 1504175316027,
+        "duration" : 3697
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I navigate to the home page",
+      "uid" : "b5acc8f385a4ef3e",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175320378,
+        "stop" : 1504175324656,
+        "duration" : 4278
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I search for cola",
+      "uid" : "7d2f69cd9adccbf9",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175292570,
+        "stop" : 1504175296100,
+        "duration" : 3530
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see the order confirmation page",
+      "uid" : "e92eedf44a519146",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175312258,
+        "stop" : 1504175312325,
+        "duration" : 67
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am on the grocery website",
+      "uid" : "36fea95ba172140a",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504102391773,
+        "stop" : 1504102396168,
+        "duration" : 4395
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I am signed out",
+      "uid" : "da63a4be36d5730",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175326811,
+        "stop" : 1504175326861,
+        "duration" : 50
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I add the first avaialble item on search results page",
+      "uid" : "e43d93710d8ef307",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175296103,
+        "stop" : 1504175296485,
+        "duration" : 382
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I have logged in with valid credentials",
+      "uid" : "c3c2476d41bc84ea",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175268721,
+        "stop" : 1504175285868,
+        "duration" : 17147
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "the order should be cancelled",
+      "uid" : "d8a1124c89398091",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175320299,
+        "stop" : 1504175320375,
+        "duration" : 76
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I checkout the order and continue to payment page",
+      "uid" : "fbaa527e871c2f00",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175296876,
+        "stop" : 1504175302263,
+        "duration" : 5387
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I cancel the pending order and confirm confirmation",
+      "uid" : "91b5a13158e4e6d3",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175316031,
+        "stop" : 1504175320295,
+        "duration" : 4264
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "correct item should be added to the trolley",
+      "uid" : "bdba2ad092dbefad",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175296490,
+        "stop" : 1504175296867,
+        "duration" : 377
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I provide the valid card details to confirm the order",
+      "uid" : "a210fe3c683dbef6",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175302266,
+        "stop" : 1504175312252,
+        "duration" : 9986
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I sign out",
+      "uid" : "489235a1f4bf9475",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175324659,
+        "stop" : 1504175326783,
+        "duration" : 2124
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I find the item title",
+      "uid" : "8c3738ba9e70ffde",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504102396668,
+        "stop" : 1504102397537,
+        "duration" : 869
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I log out",
+      "uid" : "b210d3c1d2e59493",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1504173155127,
+        "stop" : 1504173155129,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I have booked the 1st available delivery slot",
+      "uid" : "b812b3c3432c6c1",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175285876,
+        "stop" : 1504175290352,
+        "duration" : 4476
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see the slot details on the context card",
+      "uid" : "959185c61e290eb9",
+      "parentUid" : "77b214a6b24bb28a4f046ae9026b303a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175290393,
+        "stop" : 1504175292564,
+        "duration" : 2171
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "77b214a6b24bb28a4f046ae9026b303a"
+  } ]
+}

@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": ".pending-order--modal-action-cancel button"
+}

@@ -1,0 +1,344 @@
+{
+  "uid" : "8d4e968ab31bb0b",
+  "name" : "I checkout the order and continue to payment page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I checkout the order and continue to payment page",
+  "historyId" : "cc684d11f15f21e3e31e62069bbd69ca",
+  "time" : {
+    "start" : 1504170459932,
+    "stop" : 1504170466204,
+    "duration" : 6272
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "unknown error: Element <a href=\"/groceries/en-GB/checkout/order-summary\" class=\"button button-primary button-disabled\" data-reactid=\"100\">...</a> is not clickable at point (756, 515). Other element would receive the click: <div class=\"button-with-feedback\" data-reactid=\"99\">...</div>",
+    "trace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.23113933958953825-1\") - click.js:20:22",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "unknown error: Element <a href=\"/groceries/en-GB/checkout/order-summary\" class=\"button button-primary button-disabled\" data-reactid=\"100\">...</a> is not clickable at point (756, 515). Other element would receive the click: <div class=\"button-with-feedback\" data-reactid=\"99\">...</div>",
+      "trace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.23113933958953825-1\") - click.js:20:22",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/elements",
+      "time" : {
+        "start" : 1504170459942,
+        "stop" : 1504170459974,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14fb3a61b5c797a5",
+        "name" : "Request",
+        "source" : "14fb3a61b5c797a5.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "6a6c209c3eb9d174",
+        "name" : "Response",
+        "source" : "6a6c209c3eb9d174.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/element/0.8416823412219878-49/enabled",
+      "time" : {
+        "start" : 1504170459975,
+        "stop" : 1504170459994,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2157862969c35cca",
+        "name" : "Response",
+        "source" : "2157862969c35cca.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/url",
+      "time" : {
+        "start" : 1504170459997,
+        "stop" : 1504170462576,
+        "duration" : 2579
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c6f2edc13712a8b",
+        "name" : "Request",
+        "source" : "7c6f2edc13712a8b.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "215adc6d9c3229dd",
+        "name" : "Response",
+        "source" : "215adc6d9c3229dd.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/elements",
+      "time" : {
+        "start" : 1504170462578,
+        "stop" : 1504170462600,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1e99609a26d59e6",
+        "name" : "Request",
+        "source" : "e1e99609a26d59e6.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "6b94ab834c6e33a6",
+        "name" : "Response",
+        "source" : "6b94ab834c6e33a6.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/element",
+      "time" : {
+        "start" : 1504170462601,
+        "stop" : 1504170462627,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9cca6a665f20a312",
+        "name" : "Request",
+        "source" : "9cca6a665f20a312.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "31463dbfe3cf2ad2",
+        "name" : "Response",
+        "source" : "31463dbfe3cf2ad2.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/element/0.23113933958953825-1/click",
+      "time" : {
+        "start" : 1504170462627,
+        "stop" : 1504170462696,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6293795569b93b89",
+        "name" : "Response",
+        "source" : "6293795569b93b89.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/elements",
+      "time" : {
+        "start" : 1504170462704,
+        "stop" : 1504170462725,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6277fce45137e856",
+        "name" : "Request",
+        "source" : "6277fce45137e856.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "d346578c7e26e527",
+        "name" : "Response",
+        "source" : "d346578c7e26e527.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/element",
+      "time" : {
+        "start" : 1504170462727,
+        "stop" : 1504170462748,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee5cb4d9bedde5c2",
+        "name" : "Request",
+        "source" : "ee5cb4d9bedde5c2.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "fe24b9ef3efbc6d6",
+        "name" : "Response",
+        "source" : "fe24b9ef3efbc6d6.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/element/0.23113933958953825-1/click",
+      "time" : {
+        "start" : 1504170462748,
+        "stop" : 1504170462813,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69509e0155c49861",
+        "name" : "Response",
+        "source" : "69509e0155c49861.json",
+        "type" : "application/json",
+        "size" : 1001
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/db3261e485ec423c1454336f7da3e7bb/screenshot",
+      "time" : {
+        "start" : 1504170462813,
+        "stop" : 1504170466201,
+        "duration" : 3388
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3eefebe0ebc2553",
+        "name" : "Screenshot",
+        "source" : "d3eefebe0ebc2553.png",
+        "type" : "image/png",
+        "size" : 148373
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I checkout the order and continue to payment page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "unknown error: Element <a href=\"/groceries/en-GB/checkout/order-summary\" class=\"button button-primary button-disabled\" data-reactid=\"100\">...</a> is not clickable at point (756, 515). Other element would receive the click: <div class=\"button-with-feedback\" data-reactid=\"99\">...</div>",
+    "trace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.23113933958953825-1\") - click.js:20:22",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "8d4e968ab31bb0b.json",
+  "parameterValues" : [ ]
+}

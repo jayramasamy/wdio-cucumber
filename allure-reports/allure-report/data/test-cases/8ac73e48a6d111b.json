@@ -1,0 +1,107 @@
+{
+  "uid" : "8ac73e48a6d111b",
+  "name" : "I click on the my orders link on the footer",
+  "fullName" : "Footer navigation links Anonymous user click on my orders link on the footer.I click on the my orders link on the footer",
+  "historyId" : "f6ec5a99e2ddbf4c0aae63c60108ff25",
+  "time" : {
+    "start" : 1504021438412,
+    "stop" : 1504021443887,
+    "duration" : 5475
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d75e84d368ada29be0ba349504903d42/element",
+      "time" : {
+        "start" : 1504021438419,
+        "stop" : 1504021438498,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6133fbb0d65d0e9",
+        "name" : "Request",
+        "source" : "e6133fbb0d65d0e9.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "77f6dff52608e55c",
+        "name" : "Response",
+        "source" : "77f6dff52608e55c.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d75e84d368ada29be0ba349504903d42/element/0.8937244326209712-1/click",
+      "time" : {
+        "start" : 1504021438500,
+        "stop" : 1504021443883,
+        "duration" : 5383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b448c6e7cf34c56c",
+        "name" : "Response",
+        "source" : "b448c6e7cf34c56c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the my orders link on the footer"
+  }, {
+    "name" : "package",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "8ac73e48a6d111b.json",
+  "parameterValues" : [ ]
+}

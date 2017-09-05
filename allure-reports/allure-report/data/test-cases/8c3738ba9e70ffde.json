@@ -1,0 +1,352 @@
+{
+  "uid" : "8c3738ba9e70ffde",
+  "name" : "I find the item title",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I find the item title",
+  "historyId" : "c25ddf86a5f4b86ce0475632635e2642",
+  "time" : {
+    "start" : 1504102396668,
+    "stop" : 1504102397537,
+    "duration" : 869
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a30b24511b7b2b6ae06bd121525b576a/elements",
+      "time" : {
+        "start" : 1504102396675,
+        "stop" : 1504102397460,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4cb58de6c564ebf",
+        "name" : "Request",
+        "source" : "b4cb58de6c564ebf.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "c0674e8dbb166476",
+        "name" : "Response",
+        "source" : "c0674e8dbb166476.json",
+        "type" : "application/json",
+        "size" : 1742
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a30b24511b7b2b6ae06bd121525b576a/elements",
+      "time" : {
+        "start" : 1504102397464,
+        "stop" : 1504102397474,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29c36f2cdc8d9e27",
+        "name" : "Request",
+        "source" : "29c36f2cdc8d9e27.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "b196440ff81ff0c2",
+        "name" : "Response",
+        "source" : "b196440ff81ff0c2.json",
+        "type" : "application/json",
+        "size" : 1742
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/a30b24511b7b2b6ae06bd121525b576a/element/0.16626952203318646-3/text",
+      "time" : {
+        "start" : 1504102397510,
+        "stop" : 1504102397534,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f817ae41784da5d",
+        "name" : "Response",
+        "source" : "8f817ae41784da5d.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I find the item title"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d64f8e1a29567cd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504102314969,
+        "stop" : 1504102316163,
+        "duration" : 1194
+      }
+    }, {
+      "uid" : "f15d5f52412ea298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504102266183,
+        "stop" : 1504102267258,
+        "duration" : 1075
+      }
+    }, {
+      "uid" : "2e3179e035de2527",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified",
+      "time" : {
+        "start" : 1504102196466,
+        "stop" : 1504102198072,
+        "duration" : 1606
+      }
+    }, {
+      "uid" : "de6e11a8a245c666",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'text' of undefined",
+      "time" : {
+        "start" : 1504101598220,
+        "stop" : 1504101599380,
+        "duration" : 1160
+      }
+    }, {
+      "uid" : "a0a4211e05681103",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'value' of undefined",
+      "time" : {
+        "start" : 1504101547875,
+        "stop" : 1504101548897,
+        "duration" : 1022
+      }
+    }, {
+      "uid" : "58896005acd5cc9c",
+      "status" : "broken",
+      "statusDetails" : "number or type of arguments don't agree with elementIdText protocol command",
+      "time" : {
+        "start" : 1504101495852,
+        "stop" : 1504101497448,
+        "duration" : 1596
+      }
+    }, {
+      "uid" : "90aa653271c4283f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504100807916,
+        "stop" : 1504100808988,
+        "duration" : 1072
+      }
+    }, {
+      "uid" : "ca14d728972d476a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504100741762,
+        "stop" : 1504100742626,
+        "duration" : 864
+      }
+    }, {
+      "uid" : "18a32f526e3e17d7",
+      "status" : "broken",
+      "statusDetails" : "itemTitle.getText is not a function",
+      "time" : {
+        "start" : 1504100610972,
+        "stop" : 1504100612158,
+        "duration" : 1186
+      }
+    }, {
+      "uid" : "cbe21c2e7c1562ea",
+      "status" : "broken",
+      "statusDetails" : "items.value[0].ELEMENT.getText is not a function",
+      "time" : {
+        "start" : 1504100535605,
+        "stop" : 1504100536716,
+        "duration" : 1111
+      }
+    }, {
+      "uid" : "8644205ee25e444a",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified",
+      "time" : {
+        "start" : 1504100462899,
+        "stop" : 1504100464879,
+        "duration" : 1980
+      }
+    }, {
+      "uid" : "be3445dbbb085f12",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified",
+      "time" : {
+        "start" : 1504100332373,
+        "stop" : 1504100333980,
+        "duration" : 1607
+      }
+    }, {
+      "uid" : "7784738c5244e0c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504099299860,
+        "stop" : 1504099300916,
+        "duration" : 1056
+      }
+    }, {
+      "uid" : "e7088d4b2ae48c9f",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'elementIdText' of undefined",
+      "time" : {
+        "start" : 1504099260739,
+        "stop" : 1504099261832,
+        "duration" : 1093
+      }
+    }, {
+      "uid" : "460825a1fd4d2d88",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of undefined",
+      "time" : {
+        "start" : 1504099173950,
+        "stop" : 1504099174944,
+        "duration" : 994
+      }
+    }, {
+      "uid" : "32cf48923813155e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504099057317,
+        "stop" : 1504099057317,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3bec029c03796799",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504099057313,
+        "stop" : 0,
+        "duration" : -1504099057313
+      }
+    }, {
+      "uid" : "7ed1379ae89b06ce",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504099038149,
+        "stop" : 1504099038149,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be3efc1d5bb45389",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504099038147,
+        "stop" : 0,
+        "duration" : -1504099038147
+      }
+    }, {
+      "uid" : "529d68355c7e4059",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'elementIdText' of undefined",
+      "time" : {
+        "start" : 1504098726370,
+        "stop" : 1504098727565,
+        "duration" : 1195
+      }
+    }, {
+      "uid" : "7e240973f85e065",
+      "status" : "broken",
+      "statusDetails" : "items is not defined",
+      "time" : {
+        "start" : 1504098688127,
+        "stop" : 1504098689158,
+        "duration" : 1031
+      }
+    }, {
+      "uid" : "df502c69decae43e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504098392866,
+        "stop" : 1504098393716,
+        "duration" : 850
+      }
+    }, {
+      "uid" : "43cbe0302ada2b98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504098246417,
+        "stop" : 1504098247323,
+        "duration" : 906
+      }
+    }, {
+      "uid" : "2cc3087f28d842c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504098123488,
+        "stop" : 1504098124456,
+        "duration" : 968
+      }
+    }, {
+      "uid" : "4304fddcb3d807e",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of undefined",
+      "time" : {
+        "start" : 1504097917586,
+        "stop" : 1504097918595,
+        "duration" : 1009
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "8c3738ba9e70ffde.json",
+  "parameterValues" : [ ]
+}

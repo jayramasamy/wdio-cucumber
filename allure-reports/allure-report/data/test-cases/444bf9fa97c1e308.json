@@ -1,0 +1,53 @@
+{
+  "uid" : "444bf9fa97c1e308",
+  "name" : "I am signed out",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am signed out",
+  "historyId" : "9905bc7ed4b3cd4c1b4a989b3e565ae9",
+  "time" : {
+    "start" : 1504174414193,
+    "stop" : 1504174414222,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "brower is not defined",
+    "trace" : "ReferenceError: brower is not defined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:113:10)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am signed out"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "brower is not defined",
+    "trace" : "ReferenceError: brower is not defined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:113:10)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "444bf9fa97c1e308.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "90aa653271c4283f",
+  "name" : "I find the item title",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I find the item title",
+  "historyId" : "c25ddf86a5f4b86ce0475632635e2642",
+  "time" : {
+    "start" : 1504100807916,
+    "stop" : 1504100808988,
+    "duration" : 1072
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/05b762aaea40545b1a65cc93a247f40e/elements",
+      "time" : {
+        "start" : 1504100807923,
+        "stop" : 1504100808896,
+        "duration" : 973
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "caa8bd46c3fc83f4",
+        "name" : "Request",
+        "source" : "caa8bd46c3fc83f4.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "e220a9f1e1ca53e",
+        "name" : "Response",
+        "source" : "e220a9f1e1ca53e.json",
+        "type" : "application/json",
+        "size" : 1742
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/05b762aaea40545b1a65cc93a247f40e/elements",
+      "time" : {
+        "start" : 1504100808899,
+        "stop" : 1504100808913,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30f69e66f2255eb1",
+        "name" : "Request",
+        "source" : "30f69e66f2255eb1.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "d1567029249662da",
+        "name" : "Response",
+        "source" : "d1567029249662da.json",
+        "type" : "application/json",
+        "size" : 1742
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/05b762aaea40545b1a65cc93a247f40e/element/0.42681252215485044-3/text",
+      "time" : {
+        "start" : 1504100808952,
+        "stop" : 1504100808983,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64ebf69c76e7a8a7",
+        "name" : "Response",
+        "source" : "64ebf69c76e7a8a7.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I find the item title"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "90aa653271c4283f.json",
+  "parameterValues" : [ ]
+}

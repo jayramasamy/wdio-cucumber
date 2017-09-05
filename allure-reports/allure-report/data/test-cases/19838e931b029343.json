@@ -1,0 +1,86 @@
+{
+  "uid" : "19838e931b029343",
+  "name" : "I am on the grocery website",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am on the grocery website",
+  "historyId" : "bf798ec6ae4dfa14c92d199ac870427b",
+  "time" : {
+    "start" : 1504099295738,
+    "stop" : 1504099299360,
+    "duration" : 3622
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b6c5590b478696d63ea0eb44b205f7d4/url",
+      "time" : {
+        "start" : 1504099295745,
+        "stop" : 1504099299352,
+        "duration" : 3607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99425028f7f87d00",
+        "name" : "Request",
+        "source" : "99425028f7f87d00.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "3e0a2b55ccc23052",
+        "name" : "Response",
+        "source" : "3e0a2b55ccc23052.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the grocery website"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "19838e931b029343.json",
+  "parameterValues" : [ ]
+}

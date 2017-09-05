@@ -1,0 +1,16 @@
+uk:
+  user:
+    default:
+      email: jaytestuk4@mailinator.com
+      password: Tescotest123
+    favourites:
+      email: jaytestuk1@mailinator.com
+      password: Tescotest123
+pl:
+  user:
+    default:
+      email: jaytestpl1@mailinator.com
+      password: qwerty123
+    favourites:
+      email: jaytestpl2@mailinator.com
+      password: qwerty123

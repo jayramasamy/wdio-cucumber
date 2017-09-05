@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1504087936481' stop='1504087946875'>
+    <name>Footer navigation links Anonymous user click on my orders link on the footer</name>
+    <title>Footer navigation links Anonymous user click on my orders link on the footer</title>
+    <test-cases>
+        <test-case start='1504087936488' status='passed' stop='1504087942632'>
+            <name>I am on the home page</name>
+            <title>I am on the home page</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/uiautomation-wdrio/features/footer.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1504087936495' status='passed' stop='1504087942624'>
+                    <name>POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/url</name>
+                    <title>POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/url</title>
+                    <attachments>
+                        <attachment title='Request' source='15b37b80-5f98-4255-aa07-900e57a77008-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='1813bd9a-be8f-4347-8eff-b9f9c029b3c5-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1504087942635' status='passed' stop='1504087946848'>
+            <name>I click on the my orders link on the footer</name>
+            <title>I click on the my orders link on the footer</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/uiautomation-wdrio/features/footer.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1504087942643' status='passed' stop='1504087942661'>
+                    <name>POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/element</name>
+                    <title>POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/element</title>
+                    <attachments>
+                        <attachment title='Request' source='91fdd7d9-8357-488e-bfe1-fd3cade9a278-attachment.json' type='application/json' size='83'/>
+                        <attachment title='Response' source='e251ccc1-39cc-44e2-be58-46beca1e6fba-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1504087942662' status='passed' stop='1504087946842'>
+                    <name>POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/element/0.2975679294468645-1/click</name>
+                    <title>POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/element/0.2975679294468645-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='2f60f42e-e0d0-4c26-adac-ccff2786643c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1504087946849' status='passed' stop='1504087946871'>
+            <name>I should be taken to sign in page</name>
+            <title>I should be taken to sign in page</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/jayramasamy/uiautomation-wdrio/features/footer.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1504087946854' status='passed' stop='1504087946865'>
+                    <name>GET /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/url</name>
+                    <title>GET /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/url</title>
+                    <attachments>
+                        <attachment title='Response' source='ab2eaeb2-6b87-4c1b-b8a2-517cdc1a5c73-attachment.json' type='application/json' size='199'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

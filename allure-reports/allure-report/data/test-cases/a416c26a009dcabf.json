@@ -1,0 +1,53 @@
+{
+  "uid" : "a416c26a009dcabf",
+  "name" : "I cancel the pending order and confirm confirmation",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I cancel the pending order and confirm confirmation",
+  "historyId" : "7c968fd9ab62c495c6ecaff3fbf5cdb3",
+  "time" : {
+    "start" : 1504173155106,
+    "stop" : 1504173155106,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusDetails" : {
+    "message" : "Test ignored",
+    "trace" : "undefined",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I cancel the pending order and confirm confirmation"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Test ignored",
+    "trace" : "undefined",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "a416c26a009dcabf.json",
+  "parameterValues" : [ ]
+}

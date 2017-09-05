@@ -1,0 +1,53 @@
+{
+  "uid" : "627da258835b6248",
+  "name" : "the order should be cancelled",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.the order should be cancelled",
+  "historyId" : "96b901b55ef1cf5677daace102aed79e",
+  "time" : {
+    "start" : 1504173718691,
+    "stop" : 1504173718696,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "brower is not defined",
+    "trace" : "ReferenceError: brower is not defined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:100:10)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "the order should be cancelled"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "brower is not defined",
+    "trace" : "ReferenceError: brower is not defined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:100:10)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "627da258835b6248.json",
+  "parameterValues" : [ ]
+}

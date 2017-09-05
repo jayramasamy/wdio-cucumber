@@ -1,0 +1,145 @@
+{
+  "uid" : "b20ad3c0c857bbfe",
+  "name" : "I am on the home page",
+  "fullName" : "Footer navigation links Anonymous user click on my orders link on the footer.I am on the home page",
+  "historyId" : "d4528a3168f5fad8da930f93d4a27e4c",
+  "time" : {
+    "start" : 1504087936488,
+    "stop" : 1504087942632,
+    "duration" : 6144
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/url",
+      "time" : {
+        "start" : 1504087936495,
+        "stop" : 1504087942624,
+        "duration" : 6129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3f6cf3792095b64",
+        "name" : "Request",
+        "source" : "d3f6cf3792095b64.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "41d98b801f82e457",
+        "name" : "Response",
+        "source" : "41d98b801f82e457.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bca1edf8bb1876bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087492484,
+        "stop" : 1504087505568,
+        "duration" : 13084
+      }
+    }, {
+      "uid" : "b4c3655400254903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087189351,
+        "stop" : 1504087200671,
+        "duration" : 11320
+      }
+    }, {
+      "uid" : "81131769e3f32301",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087048370,
+        "stop" : 1504087059305,
+        "duration" : 10935
+      }
+    }, {
+      "uid" : "79855da1bca87a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504086863745,
+        "stop" : 1504086874859,
+        "duration" : 11114
+      }
+    }, {
+      "uid" : "9b465d882c279d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504080909656,
+        "stop" : 1504080918233,
+        "duration" : 8577
+      }
+    }, {
+      "uid" : "e6054a2d166a3b1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504021431535,
+        "stop" : 1504021438406,
+        "duration" : 6871
+      }
+    }, {
+      "uid" : "c2fcc6ea2de8b1e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504020176220,
+        "stop" : 1504020182619,
+        "duration" : 6399
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "b20ad3c0c857bbfe.json",
+  "parameterValues" : [ ]
+}

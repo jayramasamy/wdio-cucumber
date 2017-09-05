@@ -1,0 +1,53 @@
+{
+  "uid" : "5dbcc0301f666cc8",
+  "name" : "I cancel the pending order and confirm confirmation",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I cancel the pending order and confirm confirmation",
+  "historyId" : "7c968fd9ab62c495c6ecaff3fbf5cdb3",
+  "time" : {
+    "start" : 1504170387458,
+    "stop" : 1504170387460,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Step \"I cancel the pending order and confirm confirmation\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "trace" : "/Users/jayramasamy/uiautomation-wdrio/features/goldenpath.feature:17",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I cancel the pending order and confirm confirmation"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Step \"I cancel the pending order and confirm confirmation\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "trace" : "/Users/jayramasamy/uiautomation-wdrio/features/goldenpath.feature:17",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "5dbcc0301f666cc8.json",
+  "parameterValues" : [ ]
+}

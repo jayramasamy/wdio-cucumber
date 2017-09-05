@@ -1,0 +1,128 @@
+{
+  "uid" : "e7088d4b2ae48c9f",
+  "name" : "I find the item title",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I find the item title",
+  "historyId" : "c25ddf86a5f4b86ce0475632635e2642",
+  "time" : {
+    "start" : 1504099260739,
+    "stop" : 1504099261832,
+    "duration" : 1093
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Cannot read property 'elementIdText' of undefined",
+    "trace" : "TypeError: Cannot read property 'elementIdText' of undefined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:48:20)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Cannot read property 'elementIdText' of undefined",
+      "trace" : "TypeError: Cannot read property 'elementIdText' of undefined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:48:20)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b4ec09cb55e14d981ae3ffb3aff59c47/elements",
+      "time" : {
+        "start" : 1504099260751,
+        "stop" : 1504099261780,
+        "duration" : 1029
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f28c22af6c04b87b",
+        "name" : "Request",
+        "source" : "f28c22af6c04b87b.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "cdf292f115577339",
+        "name" : "Response",
+        "source" : "cdf292f115577339.json",
+        "type" : "application/json",
+        "size" : 1694
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/b4ec09cb55e14d981ae3ffb3aff59c47/elements",
+      "time" : {
+        "start" : 1504099261782,
+        "stop" : 1504099261794,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9de4aa1ee8f7a888",
+        "name" : "Request",
+        "source" : "9de4aa1ee8f7a888.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "d0caffeb3e6db76b",
+        "name" : "Response",
+        "source" : "d0caffeb3e6db76b.json",
+        "type" : "application/json",
+        "size" : 1694
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I find the item title"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Cannot read property 'elementIdText' of undefined",
+    "trace" : "TypeError: Cannot read property 'elementIdText' of undefined\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:48:20)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "e7088d4b2ae48c9f.json",
+  "parameterValues" : [ ]
+}

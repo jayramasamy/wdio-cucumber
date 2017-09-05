@@ -1,0 +1,122 @@
+{
+  "uid" : "cd2536a895255390",
+  "name" : "the order should be cancelled",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.the order should be cancelled",
+  "historyId" : "96b901b55ef1cf5677daace102aed79e",
+  "time" : {
+    "start" : 1504174973107,
+    "stop" : 1504174973740,
+    "duration" : 633
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "An element could not be located on the page using the given search parameters (\".info-message--message\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\".info-message--message\").\n                    at getText(\".info-message--message\") - at elements(\".info-message--message\") - getText.js:18:17",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "An element could not be located on the page using the given search parameters (\".info-message--message\").",
+      "trace" : "Error: An element could not be located on the page using the given search parameters (\".info-message--message\").\n                    at getText(\".info-message--message\") - at elements(\".info-message--message\") - getText.js:18:17",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/816e4b4cd2d8ac152f9bc57661f12e50/elements",
+      "time" : {
+        "start" : 1504174973110,
+        "stop" : 1504174973140,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fcb41ae8d8fa0dd2",
+        "name" : "Request",
+        "source" : "fcb41ae8d8fa0dd2.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "5240991f8996fd79",
+        "name" : "Response",
+        "source" : "5240991f8996fd79.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/816e4b4cd2d8ac152f9bc57661f12e50/screenshot",
+      "time" : {
+        "start" : 1504174973140,
+        "stop" : 1504174973728,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f16796c0de0c3d9b",
+        "name" : "Screenshot",
+        "source" : "f16796c0de0c3d9b.png",
+        "type" : "image/png",
+        "size" : 142063
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "the order should be cancelled"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "An element could not be located on the page using the given search parameters (\".info-message--message\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\".info-message--message\").\n                    at getText(\".info-message--message\") - at elements(\".info-message--message\") - getText.js:18:17",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "cd2536a895255390.json",
+  "parameterValues" : [ ]
+}

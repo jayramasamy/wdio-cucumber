@@ -1,0 +1,200 @@
+{
+  "uid" : "d4975699ca53d9bb",
+  "name" : "I checkout the order and continue to payment page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I checkout the order and continue to payment page",
+  "historyId" : "cc684d11f15f21e3e31e62069bbd69ca",
+  "time" : {
+    "start" : 1504166665664,
+    "stop" : 1504166666468,
+    "duration" : 804
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "unknown error: Element <a href=\"/en-GB/checkout/review-trolley\" class=\"button button-primary button-disabled mini-trolley--checkout\" data-reactid=\"2062\">...</a> is not clickable at point (812, 234). Other element would receive the click: <div class=\"mini-trolley--header-checkout\" data-reactid=\"2052\">...</div>",
+    "trace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.003347543162608213-49\") - click.js:20:22",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "unknown error: Element <a href=\"/en-GB/checkout/review-trolley\" class=\"button button-primary button-disabled mini-trolley--checkout\" data-reactid=\"2062\">...</a> is not clickable at point (812, 234). Other element would receive the click: <div class=\"mini-trolley--header-checkout\" data-reactid=\"2052\">...</div>",
+      "trace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.003347543162608213-49\") - click.js:20:22",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/bd39388e8db77a0b8d7a56b88c3da53c/elements",
+      "time" : {
+        "start" : 1504166665674,
+        "stop" : 1504166665698,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d079f54294965c3",
+        "name" : "Request",
+        "source" : "5d079f54294965c3.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "b495ed3f4bb93007",
+        "name" : "Response",
+        "source" : "b495ed3f4bb93007.json",
+        "type" : "application/json",
+        "size" : 163
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/bd39388e8db77a0b8d7a56b88c3da53c/element/0.003347543162608213-49/enabled",
+      "time" : {
+        "start" : 1504166665698,
+        "stop" : 1504166665717,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dcfcacb15b46e2f",
+        "name" : "Response",
+        "source" : "8dcfcacb15b46e2f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/bd39388e8db77a0b8d7a56b88c3da53c/element",
+      "time" : {
+        "start" : 1504166665722,
+        "stop" : 1504166665746,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ae788d8c0e66c38",
+        "name" : "Request",
+        "source" : "6ae788d8c0e66c38.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "cbfdf217bd6db0e9",
+        "name" : "Response",
+        "source" : "cbfdf217bd6db0e9.json",
+        "type" : "application/json",
+        "size" : 139
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/bd39388e8db77a0b8d7a56b88c3da53c/element/0.003347543162608213-49/click",
+      "time" : {
+        "start" : 1504166665746,
+        "stop" : 1504166665822,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9909b74f65064c97",
+        "name" : "Response",
+        "source" : "9909b74f65064c97.json",
+        "type" : "application/json",
+        "size" : 1053
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/bd39388e8db77a0b8d7a56b88c3da53c/screenshot",
+      "time" : {
+        "start" : 1504166665824,
+        "stop" : 1504166666465,
+        "duration" : 641
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "208f186470f52e28",
+        "name" : "Screenshot",
+        "source" : "208f186470f52e28.png",
+        "type" : "image/png",
+        "size" : 150111
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I checkout the order and continue to payment page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "unknown error: Element <a href=\"/en-GB/checkout/review-trolley\" class=\"button button-primary button-disabled mini-trolley--checkout\" data-reactid=\"2062\">...</a> is not clickable at point (812, 234). Other element would receive the click: <div class=\"mini-trolley--header-checkout\" data-reactid=\"2052\">...</div>",
+    "trace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.003347543162608213-49\") - click.js:20:22",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "d4975699ca53d9bb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid" : "3ec0e1adbf25487f",
+  "name" : "I should see the slot details on the context card",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I should see the slot details on the context card",
+  "historyId" : "20e1023685d1e2c42712a6a2206b303f",
+  "time" : {
+    "start" : 1504102515896,
+    "stop" : 1504102516028,
+    "duration" : 132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d3f655d87b4866e7d31b2c8c1122fd84/elements",
+      "time" : {
+        "start" : 1504102515910,
+        "stop" : 1504102515946,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5685d00f4dc989e8",
+        "name" : "Request",
+        "source" : "5685d00f4dc989e8.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "9f8055917db1ea85",
+        "name" : "Response",
+        "source" : "9f8055917db1ea85.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d3f655d87b4866e7d31b2c8c1122fd84/element/0.9700547255051215-87/displayed",
+      "time" : {
+        "start" : 1504102515947,
+        "stop" : 1504102515985,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31f32aef4f64fb28",
+        "name" : "Response",
+        "source" : "31f32aef4f64fb28.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/d3f655d87b4866e7d31b2c8c1122fd84/elements",
+      "time" : {
+        "start" : 1504102515989,
+        "stop" : 1504102516004,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e8f40ccd70839c8",
+        "name" : "Request",
+        "source" : "9e8f40ccd70839c8.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "ef909fc5c7359981",
+        "name" : "Response",
+        "source" : "ef909fc5c7359981.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d3f655d87b4866e7d31b2c8c1122fd84/element/0.9700547255051215-87/displayed",
+      "time" : {
+        "start" : 1504102516004,
+        "stop" : 1504102516025,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd4cc1dba6dcce37",
+        "name" : "Response",
+        "source" : "bd4cc1dba6dcce37.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see the slot details on the context card"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "3ec0e1adbf25487f.json",
+  "parameterValues" : [ ]
+}

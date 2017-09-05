@@ -1,0 +1,128 @@
+{
+  "uid" : "3787ef51d9684ea6",
+  "name" : "I have booked the 1st available delivery slot",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I have booked the 1st available delivery slot",
+  "historyId" : "f1367a07d5decdc685dc43b15401bee6",
+  "time" : {
+    "start" : 1504087516222,
+    "stop" : 1504087521831,
+    "duration" : 5609
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Cannot read property 'click' of undefined",
+    "trace" : "TypeError: Cannot read property 'click' of undefined\n                    at Object.deliveryPage.bookFirstAvailableSlot (/Users/jayramasamy/uiautomation-wdrio/pageObjects/pages/base/deliveryPage.js:18:10)\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:27:25)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Cannot read property 'click' of undefined",
+      "trace" : "TypeError: Cannot read property 'click' of undefined\n                    at Object.deliveryPage.bookFirstAvailableSlot (/Users/jayramasamy/uiautomation-wdrio/pageObjects/pages/base/deliveryPage.js:18:10)\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:27:25)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/dd35a981dfa5f4bb817ca20eef855bf3/url",
+      "time" : {
+        "start" : 1504087516234,
+        "stop" : 1504087521520,
+        "duration" : 5286
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4949ec07438a3463",
+        "name" : "Request",
+        "source" : "4949ec07438a3463.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "580ad0d69b139525",
+        "name" : "Response",
+        "source" : "580ad0d69b139525.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/dd35a981dfa5f4bb817ca20eef855bf3/elements",
+      "time" : {
+        "start" : 1504087521541,
+        "stop" : 1504087521572,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4654e0f0c858ae24",
+        "name" : "Request",
+        "source" : "4654e0f0c858ae24.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "ec2094039a2ce045",
+        "name" : "Response",
+        "source" : "ec2094039a2ce045.json",
+        "type" : "application/json",
+        "size" : 6068
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have booked the 1st available delivery slot"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Cannot read property 'click' of undefined",
+    "trace" : "TypeError: Cannot read property 'click' of undefined\n                    at Object.deliveryPage.bookFirstAvailableSlot (/Users/jayramasamy/uiautomation-wdrio/pageObjects/pages/base/deliveryPage.js:18:10)\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:27:25)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "3787ef51d9684ea6.json",
+  "parameterValues" : [ ]
+}

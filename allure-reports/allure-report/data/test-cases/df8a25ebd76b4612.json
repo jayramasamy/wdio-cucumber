@@ -1,0 +1,122 @@
+{
+  "uid" : "df8a25ebd76b4612",
+  "name" : "the order should be cancelled",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.the order should be cancelled",
+  "historyId" : "96b901b55ef1cf5677daace102aed79e",
+  "time" : {
+    "start" : 1504174227118,
+    "stop" : 1504174237478,
+    "duration" : 10360
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "trace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "trace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/1c4af16ec2588800c96af60f0f23c5b7/element",
+      "time" : {
+        "start" : 1504174227120,
+        "stop" : 1504174227148,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eca67f2e037ff64b",
+        "name" : "Request",
+        "source" : "eca67f2e037ff64b.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "5757147a1ebc6276",
+        "name" : "Response",
+        "source" : "5757147a1ebc6276.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/1c4af16ec2588800c96af60f0f23c5b7/screenshot",
+      "time" : {
+        "start" : 1504174237159,
+        "stop" : 1504174237474,
+        "duration" : 315
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a15ff1f0d0a2102",
+        "name" : "Screenshot",
+        "source" : "2a15ff1f0d0a2102.png",
+        "type" : "image/png",
+        "size" : 143968
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "the order should be cancelled"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "trace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "df8a25ebd76b4612.json",
+  "parameterValues" : [ ]
+}

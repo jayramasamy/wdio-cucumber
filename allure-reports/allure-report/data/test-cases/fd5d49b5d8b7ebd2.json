@@ -1,0 +1,182 @@
+{
+  "uid" : "fd5d49b5d8b7ebd2",
+  "name" : "I search for cola",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I search for cola",
+  "historyId" : "6ef93cf3b1018618f9c221630083f47c",
+  "time" : {
+    "start" : 1504167084723,
+    "stop" : 1504167088827,
+    "duration" : 4104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a42e4bf44530d670c908864cb4b0c600/elements",
+      "time" : {
+        "start" : 1504167084725,
+        "stop" : 1504167084751,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3879b916371fc0f",
+        "name" : "Request",
+        "source" : "c3879b916371fc0f.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "fad10f7dd1f76edb",
+        "name" : "Response",
+        "source" : "fad10f7dd1f76edb.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a42e4bf44530d670c908864cb4b0c600/element/0.7151516888759744-90/clear",
+      "time" : {
+        "start" : 1504167084752,
+        "stop" : 1504167084809,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b109070557243f02",
+        "name" : "Response",
+        "source" : "b109070557243f02.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a42e4bf44530d670c908864cb4b0c600/element/0.7151516888759744-90/value",
+      "time" : {
+        "start" : 1504167084810,
+        "stop" : 1504167084948,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31c1e5281ee9264",
+        "name" : "Request",
+        "source" : "31c1e5281ee9264.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "7e9fda8fff7a6049",
+        "name" : "Response",
+        "source" : "7e9fda8fff7a6049.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a42e4bf44530d670c908864cb4b0c600/element",
+      "time" : {
+        "start" : 1504167084955,
+        "stop" : 1504167084986,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2c7c8be023b1fe1",
+        "name" : "Request",
+        "source" : "b2c7c8be023b1fe1.json",
+        "type" : "application/json",
+        "size" : 79
+      }, {
+        "uid" : "de2595e9eb1415eb",
+        "name" : "Response",
+        "source" : "de2595e9eb1415eb.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a42e4bf44530d670c908864cb4b0c600/element/0.7151516888759744-91/click",
+      "time" : {
+        "start" : 1504167084987,
+        "stop" : 1504167088820,
+        "duration" : 3833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a1f0556159474e1",
+        "name" : "Response",
+        "source" : "7a1f0556159474e1.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search for cola"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "fd5d49b5d8b7ebd2.json",
+  "parameterValues" : [ ]
+}

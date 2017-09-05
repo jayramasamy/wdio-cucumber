@@ -1,0 +1,122 @@
+{
+  "uid" : "c3000db7cb5f743c",
+  "name" : "I am on the my orders page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am on the my orders page",
+  "historyId" : "b3744080d68afa898e0b4487674d8711",
+  "time" : {
+    "start" : 1504173151367,
+    "stop" : 1504173155103,
+    "duration" : 3736
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+    "trace" : "AssertionError: expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:87:33)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+      "trace" : "AssertionError: expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:87:33)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/3a17886034a229d554e5239cef338977/url",
+      "time" : {
+        "start" : 1504173151369,
+        "stop" : 1504173155080,
+        "duration" : 3711
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72b7c438426aac99",
+        "name" : "Request",
+        "source" : "72b7c438426aac99.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "a6ca49bb38b2c5ee",
+        "name" : "Response",
+        "source" : "a6ca49bb38b2c5ee.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/3a17886034a229d554e5239cef338977/url",
+      "time" : {
+        "start" : 1504173155082,
+        "stop" : 1504173155097,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb54e71e11c2f1b",
+        "name" : "Response",
+        "source" : "eb54e71e11c2f1b.json",
+        "type" : "application/json",
+        "size" : 117
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the my orders page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+    "trace" : "AssertionError: expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:87:33)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "c3000db7cb5f743c.json",
+  "parameterValues" : [ ]
+}

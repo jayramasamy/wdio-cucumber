@@ -1,0 +1,251 @@
+{
+  "uid" : "c163a40e3831ad40",
+  "name" : "I am on the my orders page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am on the my orders page",
+  "historyId" : "b3744080d68afa898e0b4487674d8711",
+  "time" : {
+    "start" : 1504175312330,
+    "stop" : 1504175316027,
+    "duration" : 3697
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/element",
+      "time" : {
+        "start" : 1504175312332,
+        "stop" : 1504175312360,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12723adc0cf0fbdc",
+        "name" : "Request",
+        "source" : "12723adc0cf0fbdc.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "3e6b4d03f958eab",
+        "name" : "Response",
+        "source" : "3e6b4d03f958eab.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/element/0.6044190522251722-2/click",
+      "time" : {
+        "start" : 1504175312361,
+        "stop" : 1504175315992,
+        "duration" : 3631
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dff675cbd03be78b",
+        "name" : "Response",
+        "source" : "dff675cbd03be78b.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/elements",
+      "time" : {
+        "start" : 1504175315994,
+        "stop" : 1504175316014,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e820076a5f1fd46",
+        "name" : "Request",
+        "source" : "3e820076a5f1fd46.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "e00ad76ea28f81c",
+        "name" : "Response",
+        "source" : "e00ad76ea28f81c.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/url",
+      "time" : {
+        "start" : 1504175316015,
+        "stop" : 1504175316023,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a029de3984b790db",
+        "name" : "Response",
+        "source" : "a029de3984b790db.json",
+        "type" : "application/json",
+        "size" : 133
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the my orders page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "350ef0eff04edacf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175078799,
+        "stop" : 1504175081525,
+        "duration" : 2726
+      }
+    }, {
+      "uid" : "5bbc1a60d27a3696",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174965947,
+        "stop" : 1504174969478,
+        "duration" : 3531
+      }
+    }, {
+      "uid" : "e9ad6cfbc6af5193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174400384,
+        "stop" : 1504174403253,
+        "duration" : 2869
+      }
+    }, {
+      "uid" : "90a88e9db794adb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174216237,
+        "stop" : 1504174219315,
+        "duration" : 3078
+      }
+    }, {
+      "uid" : "40b1e28bb72ec655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504173838826,
+        "stop" : 1504173841885,
+        "duration" : 3059
+      }
+    }, {
+      "uid" : "3d9abf1662e8fcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504173711355,
+        "stop" : 1504173714320,
+        "duration" : 2965
+      }
+    }, {
+      "uid" : "c8b610aaf04e8644",
+      "status" : "broken",
+      "statusDetails" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+      "time" : {
+        "start" : 1504173419731,
+        "stop" : 1504173422832,
+        "duration" : 3101
+      }
+    }, {
+      "uid" : "fae4ed4293475659",
+      "status" : "broken",
+      "statusDetails" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+      "time" : {
+        "start" : 1504173243836,
+        "stop" : 1504173247966,
+        "duration" : 4130
+      }
+    }, {
+      "uid" : "bcc7a2d60eb8ff53",
+      "status" : "broken",
+      "statusDetails" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+      "time" : {
+        "start" : 1504173204664,
+        "stop" : 1504173207646,
+        "duration" : 2982
+      }
+    }, {
+      "uid" : "c3000db7cb5f743c",
+      "status" : "broken",
+      "statusDetails" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+      "time" : {
+        "start" : 1504173151367,
+        "stop" : 1504173155103,
+        "duration" : 3736
+      }
+    }, {
+      "uid" : "20d7107c1189b713",
+      "status" : "broken",
+      "statusDetails" : "Step \"I am on the my orders page\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1504170387454,
+        "stop" : 1504170387456,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "c163a40e3831ad40.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,152 @@
+{
+  "uid" : "fa8a37dad7dab427",
+  "name" : "correct item should be added to the trolley",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.correct item should be added to the trolley",
+  "historyId" : "4082cb53331891af196466105be04092",
+  "time" : {
+    "start" : 1504096311956,
+    "stop" : 1504096312829,
+    "duration" : 873
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "invalid selector: An invalid or illegal selector was specified",
+    "trace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at getText(\"0.3027431567766037-24\") - at elements(\"0.3027431567766037-24\") - getText.js:18:17",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "invalid selector: An invalid or illegal selector was specified",
+      "trace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at getText(\"0.3027431567766037-24\") - at elements(\"0.3027431567766037-24\") - getText.js:18:17",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f71ed824b876b45f3c10e8471c73d37d/elements",
+      "time" : {
+        "start" : 1504096311960,
+        "stop" : 1504096312113,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c944247c1d3381e6",
+        "name" : "Request",
+        "source" : "c944247c1d3381e6.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "2b6dff1f40f2cbaf",
+        "name" : "Response",
+        "source" : "2b6dff1f40f2cbaf.json",
+        "type" : "application/json",
+        "size" : 1725
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f71ed824b876b45f3c10e8471c73d37d/elements",
+      "time" : {
+        "start" : 1504096312154,
+        "stop" : 1504096312200,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d668c6ebb81da7fb",
+        "name" : "Request",
+        "source" : "d668c6ebb81da7fb.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "cb8f06396c809999",
+        "name" : "Response",
+        "source" : "cb8f06396c809999.json",
+        "type" : "application/json",
+        "size" : 523
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f71ed824b876b45f3c10e8471c73d37d/screenshot",
+      "time" : {
+        "start" : 1504096312202,
+        "stop" : 1504096312823,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15a099eb434a1005",
+        "name" : "Screenshot",
+        "source" : "15a099eb434a1005.png",
+        "type" : "image/png",
+        "size" : 125610
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct item should be added to the trolley"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "invalid selector: An invalid or illegal selector was specified",
+    "trace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at getText(\"0.3027431567766037-24\") - at elements(\"0.3027431567766037-24\") - getText.js:18:17",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "fa8a37dad7dab427.json",
+  "parameterValues" : [ ]
+}

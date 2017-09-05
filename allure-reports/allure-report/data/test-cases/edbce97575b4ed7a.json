@@ -1,0 +1,86 @@
+{
+  "uid" : "edbce97575b4ed7a",
+  "name" : "I am on the home page",
+  "fullName" : "Search perform searchInputBox.I am on the home page",
+  "historyId" : "6a496761f507d7e256fdcaf70894ffa",
+  "time" : {
+    "start" : 1504021431336,
+    "stop" : 1504021438085,
+    "duration" : 6749
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/5ae0d8d09aac4e87629929196586d1b8/url",
+      "time" : {
+        "start" : 1504021431367,
+        "stop" : 1504021438073,
+        "duration" : 6706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ae44f95b1389a21",
+        "name" : "Request",
+        "source" : "6ae44f95b1389a21.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "f2af3464c35a2bb4",
+        "name" : "Response",
+        "source" : "f2af3464c35a2bb4.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testClass",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "edbce97575b4ed7a.json",
+  "parameterValues" : [ ]
+}

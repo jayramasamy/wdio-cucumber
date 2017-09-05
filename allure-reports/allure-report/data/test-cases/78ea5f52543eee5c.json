@@ -1,0 +1,86 @@
+{
+  "uid" : "78ea5f52543eee5c",
+  "name" : "I navigate to the home page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single delivery order.I navigate to the home page",
+  "historyId" : "f3bf1d1c8262439adda1c0e00ff7f7a7",
+  "time" : {
+    "start" : 1504175611088,
+    "stop" : 1504175614817,
+    "duration" : 3729
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/25b5e05b88401ad076e6cd369686b79c/url",
+      "time" : {
+        "start" : 1504175611089,
+        "stop" : 1504175614815,
+        "duration" : 3726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b2da1a8a86ad3cd",
+        "name" : "Request",
+        "source" : "2b2da1a8a86ad3cd.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "b6b44a92159e7942",
+        "name" : "Response",
+        "source" : "b6b44a92159e7942.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I navigate to the home page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "78ea5f52543eee5c.json",
+  "parameterValues" : [ ]
+}

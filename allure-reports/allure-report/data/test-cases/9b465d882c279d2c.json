@@ -1,0 +1,86 @@
+{
+  "uid" : "9b465d882c279d2c",
+  "name" : "I am on the home page",
+  "fullName" : "Footer navigation links Anonymous user click on my orders link on the footer.I am on the home page",
+  "historyId" : "d4528a3168f5fad8da930f93d4a27e4c",
+  "time" : {
+    "start" : 1504080909656,
+    "stop" : 1504080918233,
+    "duration" : 8577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/aa113447c6e9eebec39ab5051d38e88f/url",
+      "time" : {
+        "start" : 1504080909769,
+        "stop" : 1504080918217,
+        "duration" : 8448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c704c25a69df42e",
+        "name" : "Request",
+        "source" : "6c704c25a69df42e.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "9ac7228af7d309ca",
+        "name" : "Response",
+        "source" : "9ac7228af7d309ca.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "9b465d882c279d2c.json",
+  "parameterValues" : [ ]
+}

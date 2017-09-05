@@ -1,0 +1,128 @@
+{
+  "uid" : "18a32f526e3e17d7",
+  "name" : "I find the item title",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I find the item title",
+  "historyId" : "c25ddf86a5f4b86ce0475632635e2642",
+  "time" : {
+    "start" : 1504100610972,
+    "stop" : 1504100612158,
+    "duration" : 1186
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "itemTitle.getText is not a function",
+    "trace" : "TypeError: itemTitle.getText is not a function\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:60:49)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "itemTitle.getText is not a function",
+      "trace" : "TypeError: itemTitle.getText is not a function\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:60:49)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f7d507a1fc7fdad727a5284cb4bad844/elements",
+      "time" : {
+        "start" : 1504100610981,
+        "stop" : 1504100612097,
+        "duration" : 1116
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f106994876b4de7",
+        "name" : "Request",
+        "source" : "7f106994876b4de7.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "f270120e2bbc5353",
+        "name" : "Response",
+        "source" : "f270120e2bbc5353.json",
+        "type" : "application/json",
+        "size" : 1718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f7d507a1fc7fdad727a5284cb4bad844/elements",
+      "time" : {
+        "start" : 1504100612099,
+        "stop" : 1504100612115,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b2d1714069af636",
+        "name" : "Request",
+        "source" : "5b2d1714069af636.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "9f202532835da286",
+        "name" : "Response",
+        "source" : "9f202532835da286.json",
+        "type" : "application/json",
+        "size" : 1718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I find the item title"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "itemTitle.getText is not a function",
+    "trace" : "TypeError: itemTitle.getText is not a function\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:60:49)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "18a32f526e3e17d7.json",
+  "parameterValues" : [ ]
+}

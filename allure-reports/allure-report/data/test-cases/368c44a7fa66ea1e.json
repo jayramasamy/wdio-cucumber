@@ -1,0 +1,148 @@
+{
+  "uid" : "368c44a7fa66ea1e",
+  "name" : "I am signed out",
+  "fullName" : "Sanity Test Golden Path sanity test for a single delivery order.I am signed out",
+  "historyId" : "97f3b4321e100a78bed18f609b7aa597",
+  "time" : {
+    "start" : 1504175854318,
+    "stop" : 1504175854343,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/221cc83c6e4e4ccb3f0f556d0def333f/elements",
+      "time" : {
+        "start" : 1504175854318,
+        "stop" : 1504175854340,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3123ed688b91f97",
+        "name" : "Request",
+        "source" : "c3123ed688b91f97.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "1c905c64f3e25c38",
+        "name" : "Response",
+        "source" : "1c905c64f3e25c38.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am signed out"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86986b8e17493b90",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504175782128,
+        "stop" : 0,
+        "duration" : -1504175782128
+      }
+    }, {
+      "uid" : "453b3fd16b9cb69e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504175782128,
+        "stop" : 1504175782128,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84d23ed8e1310a66",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504175741785,
+        "stop" : 0,
+        "duration" : -1504175741785
+      }
+    }, {
+      "uid" : "17e9eee7821f1de2",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504175741785,
+        "stop" : 1504175741785,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac20aeb76c3743d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175617346,
+        "stop" : 1504175617374,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "24005e6cf2efd17b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504175455152,
+        "stop" : 1504175455152,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ffc576395adf0bf3",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504175455151,
+        "stop" : 0,
+        "duration" : -1504175455151
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "368c44a7fa66ea1e.json",
+  "parameterValues" : [ ]
+}

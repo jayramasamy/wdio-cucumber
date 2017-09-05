@@ -1,0 +1,152 @@
+{
+  "uid" : "c8b610aaf04e8644",
+  "name" : "I am on the my orders page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am on the my orders page",
+  "historyId" : "b3744080d68afa898e0b4487674d8711",
+  "time" : {
+    "start" : 1504173419731,
+    "stop" : 1504173422832,
+    "duration" : 3101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+    "trace" : "AssertionError: expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:88:33)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+      "trace" : "AssertionError: expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:88:33)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/cae6fefdbd4c692e45b76bee7c8a1098/url",
+      "time" : {
+        "start" : 1504173419736,
+        "stop" : 1504173422646,
+        "duration" : 2910
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e86adc7e50498008",
+        "name" : "Request",
+        "source" : "e86adc7e50498008.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "83c37bad72781f43",
+        "name" : "Response",
+        "source" : "83c37bad72781f43.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/cae6fefdbd4c692e45b76bee7c8a1098/elements",
+      "time" : {
+        "start" : 1504173422715,
+        "stop" : 1504173422758,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45612f3f75998287",
+        "name" : "Request",
+        "source" : "45612f3f75998287.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "743573d57944cce",
+        "name" : "Response",
+        "source" : "743573d57944cce.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/cae6fefdbd4c692e45b76bee7c8a1098/url",
+      "time" : {
+        "start" : 1504173422776,
+        "stop" : 1504173422802,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10bcfc1c7412eefc",
+        "name" : "Response",
+        "source" : "10bcfc1c7412eefc.json",
+        "type" : "application/json",
+        "size" : 117
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the my orders page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'",
+    "trace" : "AssertionError: expected 'https://www.tesco.com/orders' to include 'groceries/en-GB/orders'\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:88:33)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "c8b610aaf04e8644.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,755 @@
+{
+  "uid" : "b812b3c3432c6c1",
+  "name" : "I have booked the 1st available delivery slot",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I have booked the 1st available delivery slot",
+  "historyId" : "f1367a07d5decdc685dc43b15401bee6",
+  "time" : {
+    "start" : 1504175285876,
+    "stop" : 1504175290352,
+    "duration" : 4476
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/url",
+      "time" : {
+        "start" : 1504175285879,
+        "stop" : 1504175289941,
+        "duration" : 4062
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37b8b748ace568de",
+        "name" : "Request",
+        "source" : "37b8b748ace568de.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "bd1e5ab9fe648513",
+        "name" : "Response",
+        "source" : "bd1e5ab9fe648513.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/element",
+      "time" : {
+        "start" : 1504175289961,
+        "stop" : 1504175289992,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7dfdf1246f96dcc8",
+        "name" : "Request",
+        "source" : "7dfdf1246f96dcc8.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "3ec530916fe88c26",
+        "name" : "Response",
+        "source" : "3ec530916fe88c26.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/element/0.12103813533992214-1/location",
+      "time" : {
+        "start" : 1504175289993,
+        "stop" : 1504175290006,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "533c37ca47d1d2f6",
+        "name" : "Response",
+        "source" : "533c37ca47d1d2f6.json",
+        "type" : "application/json",
+        "size" : 282
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/execute",
+      "time" : {
+        "start" : 1504175290012,
+        "stop" : 1504175290036,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e6a98dbd6b702e3",
+        "name" : "Request",
+        "source" : "6e6a98dbd6b702e3.json",
+        "type" : "application/json",
+        "size" : 159
+      }, {
+        "uid" : "259ee7f135f367e2",
+        "name" : "Response",
+        "source" : "259ee7f135f367e2.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/elements",
+      "time" : {
+        "start" : 1504175290056,
+        "stop" : 1504175290096,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84c3fe20f445bf5d",
+        "name" : "Request",
+        "source" : "84c3fe20f445bf5d.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "675f41c94d1dba4a",
+        "name" : "Response",
+        "source" : "675f41c94d1dba4a.json",
+        "type" : "application/json",
+        "size" : 6157
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/element/0.12103813533992214-2/click",
+      "time" : {
+        "start" : 1504175290202,
+        "stop" : 1504175290323,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d598c4433c83dcd",
+        "name" : "Response",
+        "source" : "6d598c4433c83dcd.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have booked the 1st available delivery slot"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b706774e909e283d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175051999,
+        "stop" : 1504175055752,
+        "duration" : 3753
+      }
+    }, {
+      "uid" : "67276ea352cfdb66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174938948,
+        "stop" : 1504174943048,
+        "duration" : 4100
+      }
+    }, {
+      "uid" : "5c5e98cf1a9cb16d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174372982,
+        "stop" : 1504174378078,
+        "duration" : 5096
+      }
+    }, {
+      "uid" : "c2bbad3339964f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174187736,
+        "stop" : 1504174192624,
+        "duration" : 4888
+      }
+    }, {
+      "uid" : "fa9963b3a776406d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504173809867,
+        "stop" : 1504173813491,
+        "duration" : 3624
+      }
+    }, {
+      "uid" : "342e3bd866af0183",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504171588703,
+        "stop" : 1504171593173,
+        "duration" : 4470
+      }
+    }, {
+      "uid" : "8f243644650871ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504170841191,
+        "stop" : 1504170845092,
+        "duration" : 3901
+      }
+    }, {
+      "uid" : "15f53c6db44fda15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504170450303,
+        "stop" : 1504170454000,
+        "duration" : 3697
+      }
+    }, {
+      "uid" : "5054d1e1958a75ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504168964934,
+        "stop" : 1504168968651,
+        "duration" : 3717
+      }
+    }, {
+      "uid" : "ba50b4657d140b26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504168818301,
+        "stop" : 1504168822610,
+        "duration" : 4309
+      }
+    }, {
+      "uid" : "9c4e3c53710eb836",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504168445522,
+        "stop" : 1504168449363,
+        "duration" : 3841
+      }
+    }, {
+      "uid" : "23ca8e09c2791e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504168241013,
+        "stop" : 1504168244791,
+        "duration" : 3778
+      }
+    }, {
+      "uid" : "667bb6659986996f",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1504167856670,
+        "stop" : 1504167861210,
+        "duration" : 4540
+      }
+    }, {
+      "uid" : "17cb5d8e26222e4c",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified",
+      "time" : {
+        "start" : 1504167664546,
+        "stop" : 1504167669668,
+        "duration" : 5122
+      }
+    }, {
+      "uid" : "97f80c005b8dc5f3",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1504167517605,
+        "stop" : 1504167522049,
+        "duration" : 4444
+      }
+    }, {
+      "uid" : "ee257995e0558f1b",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1504167477578,
+        "stop" : 1504167481995,
+        "duration" : 4417
+      }
+    }, {
+      "uid" : "f63431a5fc34fec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504167078058,
+        "stop" : 1504167081837,
+        "duration" : 3779
+      }
+    }, {
+      "uid" : "ecfd0f47bff36423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504166863224,
+        "stop" : 1504166867399,
+        "duration" : 4175
+      }
+    }, {
+      "uid" : "669fe9c3352bc58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504166651730,
+        "stop" : 1504166656198,
+        "duration" : 4468
+      }
+    }, {
+      "uid" : "5bfd1679e1cee945",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504166464829,
+        "stop" : 1504166468898,
+        "duration" : 4069
+      }
+    }, {
+      "uid" : "2bd0ad99c9df2245",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1504166423492,
+        "stop" : 1504166428893,
+        "duration" : 5401
+      }
+    }, {
+      "uid" : "cc69d8d65bf30416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504166349081,
+        "stop" : 1504166353269,
+        "duration" : 4188
+      }
+    }, {
+      "uid" : "e6df0659b2583333",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504166155392,
+        "stop" : 1504166158925,
+        "duration" : 3533
+      }
+    }, {
+      "uid" : "c99d01ec966a0644",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1504166086985,
+        "stop" : 1504166091551,
+        "duration" : 4566
+      }
+    }, {
+      "uid" : "bddb62f18083b483",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504165876880,
+        "stop" : 1504165881303,
+        "duration" : 4423
+      }
+    }, {
+      "uid" : "115ec7788ede0af0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504165536062,
+        "stop" : 1504165540567,
+        "duration" : 4505
+      }
+    }, {
+      "uid" : "cca58f147c3b7082",
+      "status" : "broken",
+      "statusDetails" : "deliveryPage is not defined",
+      "time" : {
+        "start" : 1504165414704,
+        "stop" : 1504165421628,
+        "duration" : 6924
+      }
+    }, {
+      "uid" : "28a269a998c01168",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504165355000,
+        "stop" : 1504165355000,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7834ef86c6b596d0",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504165354999,
+        "stop" : 0,
+        "duration" : -1504165354999
+      }
+    }, {
+      "uid" : "42951be8d26f5107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504104419873,
+        "stop" : 1504104423364,
+        "duration" : 3491
+      }
+    }, {
+      "uid" : "fde99158593b75cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504104191649,
+        "stop" : 1504104196072,
+        "duration" : 4423
+      }
+    }, {
+      "uid" : "54b11288e38e1700",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504104012929,
+        "stop" : 1504104020050,
+        "duration" : 7121
+      }
+    }, {
+      "uid" : "736df250bc88118a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504103868337,
+        "stop" : 1504103872907,
+        "duration" : 4570
+      }
+    }, {
+      "uid" : "1ebc4991c0727651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504103755412,
+        "stop" : 1504103758885,
+        "duration" : 3473
+      }
+    }, {
+      "uid" : "5c3e3e41ad48d7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504102512211,
+        "stop" : 1504102515893,
+        "duration" : 3682
+      }
+    }, {
+      "uid" : "f46f0936bf9d2d6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504100200420,
+        "stop" : 1504100204664,
+        "duration" : 4244
+      }
+    }, {
+      "uid" : "ea72b6e01321de24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504100045401,
+        "stop" : 1504100049248,
+        "duration" : 3847
+      }
+    }, {
+      "uid" : "6a4ce837e4a78207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504099888997,
+        "stop" : 1504099893214,
+        "duration" : 4217
+      }
+    }, {
+      "uid" : "beef787853726c96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504099670200,
+        "stop" : 1504099675127,
+        "duration" : 4927
+      }
+    }, {
+      "uid" : "af59282d4c2b9e5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504099500370,
+        "stop" : 1504099506411,
+        "duration" : 6041
+      }
+    }, {
+      "uid" : "e1a1edf326f1698c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504097701230,
+        "stop" : 1504097706371,
+        "duration" : 5141
+      }
+    }, {
+      "uid" : "d5b065d11a16035c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504097174110,
+        "stop" : 1504097181143,
+        "duration" : 7033
+      }
+    }, {
+      "uid" : "5af9807cadbba3a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504096453401,
+        "stop" : 1504096457910,
+        "duration" : 4509
+      }
+    }, {
+      "uid" : "e644ec0a2a1ea542",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504096301454,
+        "stop" : 1504096306323,
+        "duration" : 4869
+      }
+    }, {
+      "uid" : "abc3164feb6dcb82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504096152828,
+        "stop" : 1504096156739,
+        "duration" : 3911
+      }
+    }, {
+      "uid" : "e620991b2366c36d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504092012933,
+        "stop" : 1504092016888,
+        "duration" : 3955
+      }
+    }, {
+      "uid" : "c65038571811f294",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504091906112,
+        "stop" : 1504091909876,
+        "duration" : 3764
+      }
+    }, {
+      "uid" : "e71141e0f10d0fcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504091079718,
+        "stop" : 1504091084934,
+        "duration" : 5216
+      }
+    }, {
+      "uid" : "1bd1281f419f9418",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'ELEMENT' of undefined",
+      "time" : {
+        "start" : 1504090921039,
+        "stop" : 1504090921318,
+        "duration" : 279
+      }
+    }, {
+      "uid" : "6b328fb6f210c297",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified",
+      "time" : {
+        "start" : 1504090798503,
+        "stop" : 1504090809212,
+        "duration" : 10709
+      }
+    }, {
+      "uid" : "d469ef4cbba8915b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504090682928,
+        "stop" : 1504090687609,
+        "duration" : 4681
+      }
+    }, {
+      "uid" : "51433a2f088576cb",
+      "status" : "broken",
+      "statusDetails" : "selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1504090456312,
+        "stop" : 1504090461017,
+        "duration" : 4705
+      }
+    }, {
+      "uid" : "336c56067ba32249",
+      "status" : "broken",
+      "statusDetails" : "selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1504090396938,
+        "stop" : 1504090401232,
+        "duration" : 4294
+      }
+    }, {
+      "uid" : "d4879079d993c7f4",
+      "status" : "broken",
+      "statusDetails" : "selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1504090189955,
+        "stop" : 1504090194722,
+        "duration" : 4767
+      }
+    }, {
+      "uid" : "bbea026c42394067",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'selector' of undefined",
+      "time" : {
+        "start" : 1504090106618,
+        "stop" : 1504090111633,
+        "duration" : 5015
+      }
+    }, {
+      "uid" : "9178b2e50c371f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504089321174,
+        "stop" : 1504089325818,
+        "duration" : 4644
+      }
+    }, {
+      "uid" : "b3599297950a6352",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1504088508269,
+        "stop" : 1504088512042,
+        "duration" : 3773
+      }
+    }, {
+      "uid" : "716610231ee5c949",
+      "status" : "broken",
+      "statusDetails" : "selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1504088377452,
+        "stop" : 1504088383126,
+        "duration" : 5674
+      }
+    }, {
+      "uid" : "c6805a1ebd2a1700",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1504088234730,
+        "stop" : 1504088239789,
+        "duration" : 5059
+      }
+    }, {
+      "uid" : "2a0eb927a5d91289",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1504087961754,
+        "stop" : 1504087967450,
+        "duration" : 5696
+      }
+    }, {
+      "uid" : "a468a1799489ea68",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1504087676048,
+        "stop" : 1504087680568,
+        "duration" : 4520
+      }
+    }, {
+      "uid" : "3787ef51d9684ea6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1504087516222,
+        "stop" : 1504087521831,
+        "duration" : 5609
+      }
+    }, {
+      "uid" : "d1ce8711ac42940",
+      "status" : "broken",
+      "statusDetails" : "availableSlots is not defined",
+      "time" : {
+        "start" : 1504087217629,
+        "stop" : 1504087222571,
+        "duration" : 4942
+      }
+    }, {
+      "uid" : "9844b2a1de6548d3",
+      "status" : "broken",
+      "statusDetails" : "Step \"I have booked the 1st available delivery slot\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1504087074660,
+        "stop" : 1504087074672,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "29ff401e14f1f8a7",
+      "status" : "broken",
+      "statusDetails" : "Step \"I have booked the 1st available delivery slot\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1504086889017,
+        "stop" : 1504086889024,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "b812b3c3432c6c1.json",
+  "parameterValues" : [ ]
+}

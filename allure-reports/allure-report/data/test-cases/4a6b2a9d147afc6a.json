@@ -1,0 +1,182 @@
+{
+  "uid" : "4a6b2a9d147afc6a",
+  "name" : "correct item should be added to the trolley",
+  "fullName" : "Sanity Test Golden Path sanity test for a single delivery order.correct item should be added to the trolley",
+  "historyId" : "6fdf8e1f95efd46d0977d28f2ebd29be",
+  "time" : {
+    "start" : 1504175586100,
+    "stop" : 1504175586417,
+    "duration" : 317
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/25b5e05b88401ad076e6cd369686b79c/elements",
+      "time" : {
+        "start" : 1504175586105,
+        "stop" : 1504175586258,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf2bdd532c662f60",
+        "name" : "Request",
+        "source" : "cf2bdd532c662f60.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "e37cdfc0c23fb7dc",
+        "name" : "Response",
+        "source" : "e37cdfc0c23fb7dc.json",
+        "type" : "application/json",
+        "size" : 1716
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/25b5e05b88401ad076e6cd369686b79c/elements",
+      "time" : {
+        "start" : 1504175586259,
+        "stop" : 1504175586277,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84ead11422fcdd17",
+        "name" : "Request",
+        "source" : "84ead11422fcdd17.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "80965f039da35f50",
+        "name" : "Response",
+        "source" : "80965f039da35f50.json",
+        "type" : "application/json",
+        "size" : 1716
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/25b5e05b88401ad076e6cd369686b79c/element/0.9961987413561681-1/text",
+      "time" : {
+        "start" : 1504175586305,
+        "stop" : 1504175586343,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "646e25b0b53988ef",
+        "name" : "Response",
+        "source" : "646e25b0b53988ef.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/25b5e05b88401ad076e6cd369686b79c/elements",
+      "time" : {
+        "start" : 1504175586348,
+        "stop" : 1504175586374,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57d53c311b3591e0",
+        "name" : "Request",
+        "source" : "57d53c311b3591e0.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "54ccfa16ef21c784",
+        "name" : "Response",
+        "source" : "54ccfa16ef21c784.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/25b5e05b88401ad076e6cd369686b79c/element/0.9961987413561681-48/text",
+      "time" : {
+        "start" : 1504175586375,
+        "stop" : 1504175586414,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66fc1f7664f64834",
+        "name" : "Response",
+        "source" : "66fc1f7664f64834.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct item should be added to the trolley"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "4a6b2a9d147afc6a.json",
+  "parameterValues" : [ ]
+}

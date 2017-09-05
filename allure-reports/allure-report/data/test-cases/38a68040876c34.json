@@ -1,0 +1,86 @@
+{
+  "uid" : "38a68040876c34",
+  "name" : "I am on the home page",
+  "fullName" : "Search perform searchInputBox.I am on the home page",
+  "historyId" : "6a496761f507d7e256fdcaf70894ffa",
+  "time" : {
+    "start" : 1504080909441,
+    "stop" : 1504080918066,
+    "duration" : 8625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/80a916db63cd276ed7b4d20a38a1568b/url",
+      "time" : {
+        "start" : 1504080909466,
+        "stop" : 1504080918053,
+        "duration" : 8587
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c781a20fa956966",
+        "name" : "Request",
+        "source" : "7c781a20fa956966.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "4761057806c91294",
+        "name" : "Response",
+        "source" : "4761057806c91294.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testClass",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the home page"
+  }, {
+    "name" : "package",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "38a68040876c34.json",
+  "parameterValues" : [ ]
+}

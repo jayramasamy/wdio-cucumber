@@ -1,0 +1,10 @@
+{
+    "message": "invalid selector: An invalid or illegal selector was specified",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "status": 32,
+        "type": "InvalidSelector",
+        "message": "Argument was an invalid selector (e.g. XPath/CSS).",
+        "orgStatusMessage": "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=60.0.3112.113)\n  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.11.6 x86_64)"
+    }
+}

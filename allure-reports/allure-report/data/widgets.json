@@ -1,0 +1,130 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 45,
+      "unknown" : 0,
+      "total" : 46
+    },
+    "time" : {
+      "start" : 1504087492360,
+      "stop" : 1504175854343,
+      "duration" : 88361983,
+      "minDuration" : 2,
+      "maxDuration" : 17147,
+      "sumDuration" : 189852
+    }
+  },
+  "environment" : [ {
+    "values" : [ "{\"browserName\":\"chrome\"}" ],
+    "name" : "capabilities"
+  }, {
+    "values" : [ "[\"/Users/jayramasamy/uiautomation-wdrio/features/goldenpath.feature\"]" ],
+    "name" : "spec files"
+  } ],
+  "suites" : {
+    "total" : 6,
+    "items" : [ {
+      "uid" : "c0287dce48621a85bbdf6b41354fe89f",
+      "name" : "Sanity Test Golden Path sanity test for a single order",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 18
+      }
+    }, {
+      "uid" : "3f0e891c9cc44b0f1e9f315d3b60db59",
+      "name" : "Sanity Test Golden Path sanity test for a single delivery order",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      }
+    }, {
+      "uid" : "b17677cbdb1df0d32869381745802d28",
+      "name" : "login Login valid credentials",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "126ec6abcb32629de7656be70fb25d51",
+      "name" : "Footer navigation links Signed in user click on my orders link on the footer",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "95c3daca693f2802f90b200552396091",
+      "name" : "Footer navigation links Anonymous user click on my orders link on the footer",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "be2ed09beeb1e4cf89f00873bdb8d327",
+      "name" : "Search perform searchInputBox",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 45,
+      "unknown" : 0,
+      "total" : 46
+    }
+  } ],
+  "behaviors" : {
+    "total" : 46,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "bdbf199525818fae7a8651db9eafe741",
+      "name" : "Test defects",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "launches" : [ ]
+}

@@ -1,0 +1,10 @@
+{
+    "message": "java.io.IOException: Error writing to server",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "status": 13,
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "java.io.IOException: Error writing to server"
+    }
+}

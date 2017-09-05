@@ -1,0 +1,260 @@
+{
+  "uid" : "35d0a596aae129e",
+  "name" : "I have booked the 1st available delivery slot",
+  "fullName" : "Sanity Test Golden Path sanity test for a single delivery order.I have booked the 1st available delivery slot",
+  "historyId" : "e3e39cb50dc9ca9fb340ddb0d936e6d9",
+  "time" : {
+    "start" : 1504175737715,
+    "stop" : 1504175741782,
+    "duration" : 4067
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "element not visible",
+    "trace" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.6536532865763527-2\") - index.js:316:3",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "element not visible",
+      "trace" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.6536532865763527-2\") - index.js:316:3",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ac7731d28adcf7815ccdb9cf2f21fc1f/url",
+      "time" : {
+        "start" : 1504175737716,
+        "stop" : 1504175740891,
+        "duration" : 3175
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbd4a6f1da05d878",
+        "name" : "Request",
+        "source" : "fbd4a6f1da05d878.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "c9d66abede7a805e",
+        "name" : "Response",
+        "source" : "c9d66abede7a805e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ac7731d28adcf7815ccdb9cf2f21fc1f/element",
+      "time" : {
+        "start" : 1504175740894,
+        "stop" : 1504175740916,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a5246b1dc1a95392",
+        "name" : "Request",
+        "source" : "a5246b1dc1a95392.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "96303dd1398b994",
+        "name" : "Response",
+        "source" : "96303dd1398b994.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ac7731d28adcf7815ccdb9cf2f21fc1f/element/0.6536532865763527-1/location",
+      "time" : {
+        "start" : 1504175740917,
+        "stop" : 1504175740930,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b13852cb7b77257",
+        "name" : "Response",
+        "source" : "2b13852cb7b77257.json",
+        "type" : "application/json",
+        "size" : 282
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ac7731d28adcf7815ccdb9cf2f21fc1f/execute",
+      "time" : {
+        "start" : 1504175740931,
+        "stop" : 1504175740937,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a96ba07828adf6b5",
+        "name" : "Request",
+        "source" : "a96ba07828adf6b5.json",
+        "type" : "application/json",
+        "size" : 159
+      }, {
+        "uid" : "400bc38cec4aa616",
+        "name" : "Response",
+        "source" : "400bc38cec4aa616.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ac7731d28adcf7815ccdb9cf2f21fc1f/elements",
+      "time" : {
+        "start" : 1504175740942,
+        "stop" : 1504175740970,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14b298963cf0d4f7",
+        "name" : "Request",
+        "source" : "14b298963cf0d4f7.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "b077f660c65b749",
+        "name" : "Response",
+        "source" : "b077f660c65b749.json",
+        "type" : "application/json",
+        "size" : 6069
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ac7731d28adcf7815ccdb9cf2f21fc1f/element/0.6536532865763527-2/click",
+      "time" : {
+        "start" : 1504175741041,
+        "stop" : 1504175741072,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ed4fd187b3499db",
+        "name" : "Response",
+        "source" : "1ed4fd187b3499db.json",
+        "type" : "application/json",
+        "size" : 478
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ac7731d28adcf7815ccdb9cf2f21fc1f/screenshot",
+      "time" : {
+        "start" : 1504175741074,
+        "stop" : 1504175741768,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f8d8bc0cd873b6e",
+        "name" : "Screenshot",
+        "source" : "7f8d8bc0cd873b6e.png",
+        "type" : "image/png",
+        "size" : 223421
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have booked the 1st available delivery slot"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single delivery order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "element not visible",
+    "trace" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.6536532865763527-2\") - index.js:316:3",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "35d0a596aae129e.json",
+  "parameterValues" : [ ]
+}

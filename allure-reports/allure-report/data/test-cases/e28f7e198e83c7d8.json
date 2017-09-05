@@ -1,0 +1,176 @@
+{
+  "uid" : "e28f7e198e83c7d8",
+  "name" : "correct item should be added to the trolley",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.correct item should be added to the trolley",
+  "historyId" : "4082cb53331891af196466105be04092",
+  "time" : {
+    "start" : 1504099682148,
+    "stop" : 1504099682506,
+    "duration" : 358
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "expected 'Pepsi Max 2 Litre Bottle' to equal { Object (sessionId, value, ...) }",
+    "trace" : "AssertionError: expected 'Pepsi Max 2 Litre Bottle' to equal { Object (sessionId, value, ...) }\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:43:63)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "expected 'Pepsi Max 2 Litre Bottle' to equal { Object (sessionId, value, ...) }",
+      "trace" : "AssertionError: expected 'Pepsi Max 2 Litre Bottle' to equal { Object (sessionId, value, ...) }\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:43:63)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/1ece490b34e758089cccc7785b9bd57a/elements",
+      "time" : {
+        "start" : 1504099682154,
+        "stop" : 1504099682292,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ed22a5d489d8460",
+        "name" : "Request",
+        "source" : "2ed22a5d489d8460.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "2a738aeb541ca12d",
+        "name" : "Response",
+        "source" : "2a738aeb541ca12d.json",
+        "type" : "application/json",
+        "size" : 1725
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/1ece490b34e758089cccc7785b9bd57a/element/0.8021176312917744-24/text",
+      "time" : {
+        "start" : 1504099682372,
+        "stop" : 1504099682408,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c803d956c95bfbe",
+        "name" : "Response",
+        "source" : "5c803d956c95bfbe.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/1ece490b34e758089cccc7785b9bd57a/elements",
+      "time" : {
+        "start" : 1504099682420,
+        "stop" : 1504099682445,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0ccb19846b2ea79",
+        "name" : "Request",
+        "source" : "d0ccb19846b2ea79.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "c5f30f1b0a0ea6c6",
+        "name" : "Response",
+        "source" : "c5f30f1b0a0ea6c6.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/1ece490b34e758089cccc7785b9bd57a/element/0.8021176312917744-48/text",
+      "time" : {
+        "start" : 1504099682447,
+        "stop" : 1504099682496,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb524c0cac066d31",
+        "name" : "Response",
+        "source" : "fb524c0cac066d31.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "correct item should be added to the trolley"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "expected 'Pepsi Max 2 Litre Bottle' to equal { Object (sessionId, value, ...) }",
+    "trace" : "AssertionError: expected 'Pepsi Max 2 Litre Bottle' to equal { Object (sessionId, value, ...) }\n                    at World.<anonymous> (/Users/jayramasamy/uiautomation-wdrio/step-definitions/goldenpathSteps.js:43:63)\n                    at Promise (<anonymous>)\n                    at F (/Users/jayramasamy/uiautomation-wdrio/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "e28f7e198e83c7d8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,122 @@
+{
+  "uid" : "1337f7d94b4c4c07",
+  "name" : "I search for cola",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I search for cola",
+  "historyId" : "6ef93cf3b1018618f9c221630083f47c",
+  "time" : {
+    "start" : 1504099056591,
+    "stop" : 1504099057299,
+    "duration" : 708
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "An element could not be located on the page using the given search parameters (\"#query\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\"#query\").\n                    at setValue(\"#query\", \"cola\") - at elements(\"#query\") - setValue.js:29:17",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "An element could not be located on the page using the given search parameters (\"#query\").",
+      "trace" : "Error: An element could not be located on the page using the given search parameters (\"#query\").\n                    at setValue(\"#query\", \"cola\") - at elements(\"#query\") - setValue.js:29:17",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/5911dd9c452279d3b0c064439c13f013/elements",
+      "time" : {
+        "start" : 1504099056603,
+        "stop" : 1504099056704,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bcd0b0b130addb2",
+        "name" : "Request",
+        "source" : "5bcd0b0b130addb2.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "2ff2485356d3e2a1",
+        "name" : "Response",
+        "source" : "2ff2485356d3e2a1.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/5911dd9c452279d3b0c064439c13f013/screenshot",
+      "time" : {
+        "start" : 1504099056708,
+        "stop" : 1504099057285,
+        "duration" : 577
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28dc83598c89b5d7",
+        "name" : "Screenshot",
+        "source" : "28dc83598c89b5d7.png",
+        "type" : "image/png",
+        "size" : 5256
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search for cola"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "An element could not be located on the page using the given search parameters (\"#query\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\"#query\").\n                    at setValue(\"#query\", \"cola\") - at elements(\"#query\") - setValue.js:29:17",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "1337f7d94b4c4c07.json",
+  "parameterValues" : [ ]
+}

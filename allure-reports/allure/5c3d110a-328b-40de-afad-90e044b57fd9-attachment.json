@@ -1,0 +1,15 @@
+{
+    "sessionId": "321d8085e0abbf8b743d9b37298ae6e1",
+    "status": 0,
+    "value": {
+        "ceil": {},
+        "clone": {},
+        "floor": {},
+        "round": {},
+        "scale": {},
+        "toString": {},
+        "translate": {},
+        "x": 18,
+        "y": 1260
+    }
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "8e63cf696e34f91c",
+  "name" : "I am on the grocery website",
+  "fullName" : "login Login valid credentials.I am on the grocery website",
+  "historyId" : "61f90aefb49f0795d9e568cc292788e8",
+  "time" : {
+    "start" : 1504021431340,
+    "stop" : 1504021438240,
+    "duration" : 6900
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/be00e49a27b542125736f0fb9924a881/url",
+      "time" : {
+        "start" : 1504021431354,
+        "stop" : 1504021438228,
+        "duration" : 6874
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1b36ca21c4b86b0",
+        "name" : "Request",
+        "source" : "b1b36ca21c4b86b0.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "e109ebfcb5a8dbe7",
+        "name" : "Response",
+        "source" : "e109ebfcb5a8dbe7.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the grocery website"
+  }, {
+    "name" : "package",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "8e63cf696e34f91c.json",
+  "parameterValues" : [ ]
+}

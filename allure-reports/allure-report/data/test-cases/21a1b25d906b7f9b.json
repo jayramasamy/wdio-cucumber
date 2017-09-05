@@ -1,0 +1,155 @@
+{
+  "uid" : "21a1b25d906b7f9b",
+  "name" : "I should see search results",
+  "fullName" : "Search perform searchInputBox.I should see search results",
+  "historyId" : "8f8d1bc3cc785bc0a539be4192961801",
+  "time" : {
+    "start" : 1504086875601,
+    "stop" : 1504086877275,
+    "duration" : 1674
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ca1e1b851440c6960c62d64205156b49/elements",
+      "time" : {
+        "start" : 1504086875610,
+        "stop" : 1504086877157,
+        "duration" : 1547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6da52ae30d0fb979",
+        "name" : "Request",
+        "source" : "6da52ae30d0fb979.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "941bea9e9aeb2168",
+        "name" : "Response",
+        "source" : "941bea9e9aeb2168.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ca1e1b851440c6960c62d64205156b49/element/0.2241732499855278-3/displayed",
+      "time" : {
+        "start" : 1504086877158,
+        "stop" : 1504086877212,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abee1485d89c1e4f",
+        "name" : "Response",
+        "source" : "abee1485d89c1e4f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/ca1e1b851440c6960c62d64205156b49/elements",
+      "time" : {
+        "start" : 1504086877218,
+        "stop" : 1504086877240,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3acf9c522e5eb616",
+        "name" : "Request",
+        "source" : "3acf9c522e5eb616.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "bc20f3cfab8b803f",
+        "name" : "Response",
+        "source" : "bc20f3cfab8b803f.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/ca1e1b851440c6960c62d64205156b49/element/0.2241732499855278-3/displayed",
+      "time" : {
+        "start" : 1504086877262,
+        "stop" : 1504086877271,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c036c790c20d3a97",
+        "name" : "Response",
+        "source" : "c036c790c20d3a97.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testClass",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see search results"
+  }, {
+    "name" : "package",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "21a1b25d906b7f9b.json",
+  "parameterValues" : [ ]
+}

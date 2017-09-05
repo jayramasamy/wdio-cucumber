@@ -1,0 +1,182 @@
+{
+  "uid" : "c2e696f12a2fc356",
+  "name" : "I search for cola",
+  "fullName" : "Search perform searchInputBox.I search for cola",
+  "historyId" : "a837fc1225920fcbc2adbd3c2b5b7ff3",
+  "time" : {
+    "start" : 1504087201404,
+    "stop" : 1504087202345,
+    "duration" : 941
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e72b96145c5ee5148bf315ad98020164/elements",
+      "time" : {
+        "start" : 1504087201414,
+        "stop" : 1504087201452,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7bcf7a39a7cc8fd",
+        "name" : "Request",
+        "source" : "a7bcf7a39a7cc8fd.json",
+        "type" : "application/json",
+        "size" : 43
+      }, {
+        "uid" : "a4c1bb6b961d601d",
+        "name" : "Response",
+        "source" : "a4c1bb6b961d601d.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e72b96145c5ee5148bf315ad98020164/element/0.2956513685308184-1/clear",
+      "time" : {
+        "start" : 1504087201455,
+        "stop" : 1504087201517,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e37e1c451c28d83e",
+        "name" : "Response",
+        "source" : "e37e1c451c28d83e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e72b96145c5ee5148bf315ad98020164/element/0.2956513685308184-1/value",
+      "time" : {
+        "start" : 1504087201518,
+        "stop" : 1504087201925,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ae5654dd836dcb8",
+        "name" : "Request",
+        "source" : "5ae5654dd836dcb8.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "1dc813a79069638",
+        "name" : "Response",
+        "source" : "1dc813a79069638.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e72b96145c5ee5148bf315ad98020164/element",
+      "time" : {
+        "start" : 1504087201932,
+        "stop" : 1504087201992,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70f02c5e4d3bb387",
+        "name" : "Request",
+        "source" : "70f02c5e4d3bb387.json",
+        "type" : "application/json",
+        "size" : 79
+      }, {
+        "uid" : "89de79f39648d5c4",
+        "name" : "Response",
+        "source" : "89de79f39648d5c4.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e72b96145c5ee5148bf315ad98020164/element/0.2956513685308184-2/click",
+      "time" : {
+        "start" : 1504087201993,
+        "stop" : 1504087202341,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86737231a5b69e91",
+        "name" : "Response",
+        "source" : "86737231a5b69e91.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testClass",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "testMethod",
+    "value" : "I search for cola"
+  }, {
+    "name" : "package",
+    "value" : "Search perform searchInputBox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "c2e696f12a2fc356.json",
+  "parameterValues" : [ ]
+}

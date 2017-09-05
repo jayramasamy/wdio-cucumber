@@ -1,0 +1,86 @@
+{
+  "uid" : "adfcfd3d5572694b",
+  "name" : "I go to login page",
+  "fullName" : "login Login valid credentials.I go to login page",
+  "historyId" : "779113813800711508b2a6bd2e137e92",
+  "time" : {
+    "start" : 1504086874135,
+    "stop" : 1504086879170,
+    "duration" : 5035
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/068cfb9b3720350a4d3f8ee9ad8706e7/url",
+      "time" : {
+        "start" : 1504086874135,
+        "stop" : 1504086879165,
+        "duration" : 5030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28e6985ac11fec4b",
+        "name" : "Request",
+        "source" : "28e6985ac11fec4b.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "a24a6988e5740104",
+        "name" : "Response",
+        "source" : "a24a6988e5740104.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I go to login page"
+  }, {
+    "name" : "package",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "adfcfd3d5572694b.json",
+  "parameterValues" : [ ]
+}

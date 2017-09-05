@@ -1,0 +1,122 @@
+{
+  "uid" : "5a10d2dc1e406acd",
+  "name" : "I provide the valid card details to confirm the order",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I provide the valid card details to confirm the order",
+  "historyId" : "8624cb690f49fed49ebe0e8d182be7a1",
+  "time" : {
+    "start" : 1504168268198,
+    "stop" : 1504168271576,
+    "duration" : 3378
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "An element could not be located on the page using the given search parameters (\"#cardName\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\"#cardName\").\n                    at setValue(\"#cardName\", \"Test Card\") - at elements(\"#cardName\") - setValue.js:29:17",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "An element could not be located on the page using the given search parameters (\"#cardName\").",
+      "trace" : "Error: An element could not be located on the page using the given search parameters (\"#cardName\").\n                    at setValue(\"#cardName\", \"Test Card\") - at elements(\"#cardName\") - setValue.js:29:17",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/04baeeeadf2314417e9354557126af93/elements",
+      "time" : {
+        "start" : 1504168268203,
+        "stop" : 1504168268259,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d606e4b6b72c91cb",
+        "name" : "Request",
+        "source" : "d606e4b6b72c91cb.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "36d0d45b4fcd5b80",
+        "name" : "Response",
+        "source" : "36d0d45b4fcd5b80.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/04baeeeadf2314417e9354557126af93/screenshot",
+      "time" : {
+        "start" : 1504168268266,
+        "stop" : 1504168271573,
+        "duration" : 3307
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b6ae3b0c38ae2e7",
+        "name" : "Screenshot",
+        "source" : "6b6ae3b0c38ae2e7.png",
+        "type" : "image/png",
+        "size" : 150240
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I provide the valid card details to confirm the order"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "An element could not be located on the page using the given search parameters (\"#cardName\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\"#cardName\").\n                    at setValue(\"#cardName\", \"Test Card\") - at elements(\"#cardName\") - setValue.js:29:17",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "5a10d2dc1e406acd.json",
+  "parameterValues" : [ ]
+}

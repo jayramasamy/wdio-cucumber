@@ -1,0 +1,461 @@
+[ {
+  "uid" : "abda2dc41156d0a2",
+  "name" : "I should see search results",
+  "time" : {
+    "start" : 1504087505528,
+    "stop" : 1504087508701,
+    "duration" : 3173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3090854e4f02dc08",
+  "name" : "I go to login page",
+  "time" : {
+    "start" : 1504087504891,
+    "stop" : 1504087507097,
+    "duration" : 2206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b812b3c3432c6c1",
+  "name" : "I have booked the 1st available delivery slot",
+  "time" : {
+    "start" : 1504175285876,
+    "stop" : 1504175290352,
+    "duration" : 4476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdba2ad092dbefad",
+  "name" : "correct item should be added to the trolley",
+  "time" : {
+    "start" : 1504175296490,
+    "stop" : 1504175296867,
+    "duration" : 377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a31049e1853893cb",
+  "name" : "I am on the home page",
+  "time" : {
+    "start" : 1504087492391,
+    "stop" : 1504087504321,
+    "duration" : 11930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c40c794823883369",
+  "name" : "I should be taken to sign in page",
+  "time" : {
+    "start" : 1504087946849,
+    "stop" : 1504087946871,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3c2476d41bc84ea",
+  "name" : "I have logged in with valid credentials",
+  "time" : {
+    "start" : 1504175268721,
+    "stop" : 1504175285868,
+    "duration" : 17147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bafea6b90b951c",
+  "name" : "I checkout the order and continue to payment page",
+  "time" : {
+    "start" : 1504175821991,
+    "stop" : 1504175827405,
+    "duration" : 5414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aabbe1fa33ac81a2",
+  "name" : "correct item should be added to the trolley",
+  "time" : {
+    "start" : 1504175821703,
+    "stop" : 1504175821983,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a26fd932c0a7def",
+  "name" : "I click on the my orders link on the footer",
+  "time" : {
+    "start" : 1504087960609,
+    "stop" : 1504087965779,
+    "duration" : 5170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5861f89ac5bf848c",
+  "name" : "the order should be cancelled",
+  "time" : {
+    "start" : 1504175846945,
+    "stop" : 1504175847046,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "489235a1f4bf9475",
+  "name" : "I sign out",
+  "time" : {
+    "start" : 1504175324659,
+    "stop" : 1504175326783,
+    "duration" : 2124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d171e02a842c898c",
+  "name" : "I should be taken to my orders page",
+  "time" : {
+    "start" : 1504087965811,
+    "stop" : 1504087965845,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c3738ba9e70ffde",
+  "name" : "I find the item title",
+  "time" : {
+    "start" : 1504102396668,
+    "stop" : 1504102397537,
+    "duration" : 869
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc14abd85c3053f2",
+  "name" : "I have booked the 1st available delivery slot",
+  "time" : {
+    "start" : 1504175812767,
+    "stop" : 1504175816291,
+    "duration" : 3524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5acc8f385a4ef3e",
+  "name" : "I navigate to the home page",
+  "time" : {
+    "start" : 1504175320378,
+    "stop" : 1504175324656,
+    "duration" : 4278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91b5a13158e4e6d3",
+  "name" : "I cancel the pending order and confirm confirmation",
+  "time" : {
+    "start" : 1504175316031,
+    "stop" : 1504175320295,
+    "duration" : 4264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53b9de50949e330b",
+  "name" : "I sign out",
+  "time" : {
+    "start" : 1504175851451,
+    "stop" : 1504175854308,
+    "duration" : 2857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c6d25203c9ef847",
+  "name" : "I should see the slot details on the context card",
+  "time" : {
+    "start" : 1504175816294,
+    "stop" : 1504175818382,
+    "duration" : 2088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7939da043495463d",
+  "name" : "I have logged in with valid credentials",
+  "time" : {
+    "start" : 1504175798235,
+    "stop" : 1504175812763,
+    "duration" : 14528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b20ad3c0c857bbfe",
+  "name" : "I am on the home page",
+  "time" : {
+    "start" : 1504087936488,
+    "stop" : 1504087942632,
+    "duration" : 6144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "959185c61e290eb9",
+  "name" : "I should see the slot details on the context card",
+  "time" : {
+    "start" : 1504175290393,
+    "stop" : 1504175292564,
+    "duration" : 2171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbaa527e871c2f00",
+  "name" : "I checkout the order and continue to payment page",
+  "time" : {
+    "start" : 1504175296876,
+    "stop" : 1504175302263,
+    "duration" : 5387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a210fe3c683dbef6",
+  "name" : "I provide the valid card details to confirm the order",
+  "time" : {
+    "start" : 1504175302266,
+    "stop" : 1504175312252,
+    "duration" : 9986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da63a4be36d5730",
+  "name" : "I am signed out",
+  "time" : {
+    "start" : 1504175326811,
+    "stop" : 1504175326861,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "368c44a7fa66ea1e",
+  "name" : "I am signed out",
+  "time" : {
+    "start" : 1504175854318,
+    "stop" : 1504175854343,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b210d3c1d2e59493",
+  "name" : "I log out",
+  "time" : {
+    "start" : 1504173155127,
+    "stop" : 1504173155129,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e92eedf44a519146",
+  "name" : "I should see the order confirmation page",
+  "time" : {
+    "start" : 1504175312258,
+    "stop" : 1504175312325,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d2f69cd9adccbf9",
+  "name" : "I search for cola",
+  "time" : {
+    "start" : 1504175292570,
+    "stop" : 1504175296100,
+    "duration" : 3530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98a924e5f88d5380",
+  "name" : "I search for cola",
+  "time" : {
+    "start" : 1504087504332,
+    "stop" : 1504087505513,
+    "duration" : 1181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36fea95ba172140a",
+  "name" : "I am on the grocery website",
+  "time" : {
+    "start" : 1504102391773,
+    "stop" : 1504102396168,
+    "duration" : 4395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce364bd96c3c1d92",
+  "name" : "I login with valid credentials",
+  "time" : {
+    "start" : 1504087507100,
+    "stop" : 1504087517138,
+    "duration" : 10038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c163a40e3831ad40",
+  "name" : "I am on the my orders page",
+  "time" : {
+    "start" : 1504175312330,
+    "stop" : 1504175316027,
+    "duration" : 3697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e43d93710d8ef307",
+  "name" : "I add the first avaialble item on search results page",
+  "time" : {
+    "start" : 1504175296103,
+    "stop" : 1504175296485,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8a1124c89398091",
+  "name" : "the order should be cancelled",
+  "time" : {
+    "start" : 1504175320299,
+    "stop" : 1504175320375,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b4fc44750015c4f",
+  "name" : "I click on the my orders link on the footer",
+  "time" : {
+    "start" : 1504087942635,
+    "stop" : 1504087946848,
+    "duration" : 4213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3760af9fef9058c3",
+  "name" : "I cancel the pending order and confirm confirmation",
+  "time" : {
+    "start" : 1504175843088,
+    "stop" : 1504175846941,
+    "duration" : 3853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea6fe4ebaefcc231",
+  "name" : "I provide the valid card details to confirm the order",
+  "time" : {
+    "start" : 1504175827430,
+    "stop" : 1504175839950,
+    "duration" : 12520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1414aec26d9a5eb8",
+  "name" : "I am on the grocery website",
+  "time" : {
+    "start" : 1504087492360,
+    "stop" : 1504087504873,
+    "duration" : 12513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cadd4a5bdf87afe",
+  "name" : "I have logged in with valid credentials",
+  "time" : {
+    "start" : 1504087946896,
+    "stop" : 1504087960601,
+    "duration" : 13705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e31bc0571e97270",
+  "name" : "I add the first avaialble item on search results page",
+  "time" : {
+    "start" : 1504175821440,
+    "stop" : 1504175821701,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a91bddc2ddc62cf6",
+  "name" : "I am on the my orders page",
+  "time" : {
+    "start" : 1504175840010,
+    "stop" : 1504175843062,
+    "duration" : 3052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "952bf32c6f949039",
+  "name" : "I should see the order confirmation page",
+  "time" : {
+    "start" : 1504175839956,
+    "stop" : 1504175840007,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c513f245d1e6f8e3",
+  "name" : "I navigate to the home page",
+  "time" : {
+    "start" : 1504175847051,
+    "stop" : 1504175851447,
+    "duration" : 4396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4122e40cd849cff8",
+  "name" : "I search for cola",
+  "time" : {
+    "start" : 1504175818387,
+    "stop" : 1504175821437,
+    "duration" : 3050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd743769383b75c3",
+  "name" : "I should be logged into the grocery site",
+  "time" : {
+    "start" : 1504087517143,
+    "stop" : 1504087517388,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

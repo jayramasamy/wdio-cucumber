@@ -1,0 +1,60 @@
+{
+  "uid" : "b210d3c1d2e59493",
+  "name" : "I log out",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I log out",
+  "historyId" : "765685a85a4980e82d701456ab99c4e3",
+  "time" : {
+    "start" : 1504173155127,
+    "stop" : 1504173155129,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Step \"I log out\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "trace" : "/Users/jayramasamy/uiautomation-wdrio/features/goldenpath.feature:20",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I log out"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Step \"I log out\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "trace" : "/Users/jayramasamy/uiautomation-wdrio/features/goldenpath.feature:20",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "b210d3c1d2e59493.json",
+  "parameterValues" : [ ]
+}

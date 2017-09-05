@@ -1,0 +1,182 @@
+{
+  "uid" : "58896005acd5cc9c",
+  "name" : "I find the item title",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I find the item title",
+  "historyId" : "c25ddf86a5f4b86ce0475632635e2642",
+  "time" : {
+    "start" : 1504101495852,
+    "stop" : 1504101497448,
+    "duration" : 1596
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "number or type of arguments don't agree with elementIdText protocol command",
+    "trace" : "Error: number or type of arguments don't agree with elementIdText protocol command\n                    at elementIdText() - index.js:316:3",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "number or type of arguments don't agree with elementIdText protocol command",
+      "trace" : "Error: number or type of arguments don't agree with elementIdText protocol command\n                    at elementIdText() - index.js:316:3",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/9b7f947d8ee43b5343427b1853a93d62/elements",
+      "time" : {
+        "start" : 1504101495859,
+        "stop" : 1504101496786,
+        "duration" : 927
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "794c9d67760329a8",
+        "name" : "Request",
+        "source" : "794c9d67760329a8.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "9b250fda3bb08733",
+        "name" : "Response",
+        "source" : "9b250fda3bb08733.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/9b7f947d8ee43b5343427b1853a93d62/elements",
+      "time" : {
+        "start" : 1504101496789,
+        "stop" : 1504101496802,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76f594b189da337d",
+        "name" : "Request",
+        "source" : "76f594b189da337d.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "7bd392c69625178c",
+        "name" : "Response",
+        "source" : "7bd392c69625178c.json",
+        "type" : "application/json",
+        "size" : 1718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/9b7f947d8ee43b5343427b1853a93d62/elements",
+      "time" : {
+        "start" : 1504101496804,
+        "stop" : 1504101496816,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a0491a41c5e576",
+        "name" : "Request",
+        "source" : "3a0491a41c5e576.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "f4adc255efaecad8",
+        "name" : "Response",
+        "source" : "f4adc255efaecad8.json",
+        "type" : "application/json",
+        "size" : 1718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/9b7f947d8ee43b5343427b1853a93d62/screenshot",
+      "time" : {
+        "start" : 1504101496852,
+        "stop" : 1504101497436,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13207cca9ee86756",
+        "name" : "Screenshot",
+        "source" : "13207cca9ee86756.png",
+        "type" : "image/png",
+        "size" : 95199
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I find the item title"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "number or type of arguments don't agree with elementIdText protocol command",
+    "trace" : "Error: number or type of arguments don't agree with elementIdText protocol command\n                    at elementIdText() - index.js:316:3",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "58896005acd5cc9c.json",
+  "parameterValues" : [ ]
+}

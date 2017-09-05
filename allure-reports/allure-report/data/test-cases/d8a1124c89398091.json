@@ -1,0 +1,257 @@
+{
+  "uid" : "d8a1124c89398091",
+  "name" : "the order should be cancelled",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.the order should be cancelled",
+  "historyId" : "96b901b55ef1cf5677daace102aed79e",
+  "time" : {
+    "start" : 1504175320299,
+    "stop" : 1504175320375,
+    "duration" : 76
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/elements",
+      "time" : {
+        "start" : 1504175320302,
+        "stop" : 1504175320332,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65a685bcc2d94ee2",
+        "name" : "Request",
+        "source" : "65a685bcc2d94ee2.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "86c955f61eb2d7ec",
+        "name" : "Response",
+        "source" : "86c955f61eb2d7ec.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/elements",
+      "time" : {
+        "start" : 1504175320332,
+        "stop" : 1504175320345,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2cff8461206f6f5",
+        "name" : "Request",
+        "source" : "c2cff8461206f6f5.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "dcc879db122702f3",
+        "name" : "Response",
+        "source" : "dcc879db122702f3.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/element/0.9559457633591253-1/text",
+      "time" : {
+        "start" : 1504175320345,
+        "stop" : 1504175320373,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7ad70299e70d313",
+        "name" : "Response",
+        "source" : "b7ad70299e70d313.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "the order should be cancelled"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "45b4114557a2d981",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175087292,
+        "stop" : 1504175087393,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "cd2536a895255390",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\".info-message--message\").",
+      "time" : {
+        "start" : 1504174973107,
+        "stop" : 1504174973740,
+        "duration" : 633
+      }
+    }, {
+      "uid" : "8ea24fb059c01b36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174407914,
+        "stop" : 1504174408011,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "df8a25ebd76b4612",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1504174227118,
+        "stop" : 1504174237478,
+        "duration" : 10360
+      }
+    }, {
+      "uid" : "3d62c1ec32d4a212",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1504173846206,
+        "stop" : 1504173856734,
+        "duration" : 10528
+      }
+    }, {
+      "uid" : "627da258835b6248",
+      "status" : "broken",
+      "statusDetails" : "brower is not defined",
+      "time" : {
+        "start" : 1504173718691,
+        "stop" : 1504173718696,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "7b230878a72ede4f",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173422911,
+        "stop" : 1504173422911,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9feeafd17e1d20ac",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173422893,
+        "stop" : 0,
+        "duration" : -1504173422893
+      }
+    }, {
+      "uid" : "13c0e1bf8ddec727",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173247979,
+        "stop" : 1504173247979,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "88611ec19e71da0e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173247978,
+        "stop" : 0,
+        "duration" : -1504173247978
+      }
+    }, {
+      "uid" : "ce17929d1480ce13",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173207655,
+        "stop" : 1504173207655,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "edc7ea2b42adf483",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173207653,
+        "stop" : 0,
+        "duration" : -1504173207653
+      }
+    }, {
+      "uid" : "4be71a33e75f9048",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173155120,
+        "stop" : 1504173155120,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f62c7deb7577aaaf",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173155119,
+        "stop" : 0,
+        "duration" : -1504173155119
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "d8a1124c89398091.json",
+  "parameterValues" : [ ]
+}

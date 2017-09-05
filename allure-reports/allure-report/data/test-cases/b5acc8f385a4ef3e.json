@@ -1,0 +1,241 @@
+{
+  "uid" : "b5acc8f385a4ef3e",
+  "name" : "I navigate to the home page",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I navigate to the home page",
+  "historyId" : "1f26b7b19c630671bb4563623096c40f",
+  "time" : {
+    "start" : 1504175320378,
+    "stop" : 1504175324656,
+    "duration" : 4278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f01466f77f8a5d74c792b0dcd31de6ee/url",
+      "time" : {
+        "start" : 1504175320383,
+        "stop" : 1504175324652,
+        "duration" : 4269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80a197251fedf7ae",
+        "name" : "Request",
+        "source" : "80a197251fedf7ae.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "bdcfd983edf5d200",
+        "name" : "Response",
+        "source" : "bdcfd983edf5d200.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I navigate to the home page"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a840dbd2d8aeba4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504175087398,
+        "stop" : 1504175094637,
+        "duration" : 7239
+      }
+    }, {
+      "uid" : "9f5482f6ff2d60db",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504174973741,
+        "stop" : 1504174973741,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7287126e981ebee",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504174973740,
+        "stop" : 0,
+        "duration" : -1504174973740
+      }
+    }, {
+      "uid" : "65712bc283b3724f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504174408016,
+        "stop" : 1504174411987,
+        "duration" : 3971
+      }
+    }, {
+      "uid" : "fbb797f94e26d283",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504174237478,
+        "stop" : 0,
+        "duration" : -1504174237478
+      }
+    }, {
+      "uid" : "c1187b30e6e389a0",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504174237478,
+        "stop" : 1504174237478,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "615790dcbf786c8a",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173856735,
+        "stop" : 1504173856735,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9376f5720004a55b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173856735,
+        "stop" : 0,
+        "duration" : -1504173856735
+      }
+    }, {
+      "uid" : "5e0400aa15e90413",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173718698,
+        "stop" : 1504173718698,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2cc77562f3c87cc6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173718698,
+        "stop" : 0,
+        "duration" : -1504173718698
+      }
+    }, {
+      "uid" : "9475fe3a6c826db7",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173422911,
+        "stop" : 1504173422911,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6fbec3181c316a0e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173422911,
+        "stop" : 0,
+        "duration" : -1504173422911
+      }
+    }, {
+      "uid" : "f33141f88e6d2f8a",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173247981,
+        "stop" : 1504173247981,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c5fdecd4ff31c2a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173247980,
+        "stop" : 0,
+        "duration" : -1504173247980
+      }
+    }, {
+      "uid" : "e762015bfe82816d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173207659,
+        "stop" : 1504173207659,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f5be029e0b4f99d9",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173207657,
+        "stop" : 0,
+        "duration" : -1504173207657
+      }
+    }, {
+      "uid" : "c244262462ae1073",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1504173155124,
+        "stop" : 1504173155124,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d1646a0e5a6a0452",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1504173155122,
+        "stop" : 0,
+        "duration" : -1504173155122
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "b5acc8f385a4ef3e.json",
+  "parameterValues" : [ ]
+}

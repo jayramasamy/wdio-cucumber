@@ -1,0 +1,122 @@
+{
+  "uid" : "bbea026c42394067",
+  "name" : "I have booked the 1st available delivery slot",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I have booked the 1st available delivery slot",
+  "historyId" : "f1367a07d5decdc685dc43b15401bee6",
+  "time" : {
+    "start" : 1504090106618,
+    "stop" : 1504090111633,
+    "duration" : 5015
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Cannot read property 'selector' of undefined",
+    "trace" : "TypeError: Cannot read property 'selector' of undefined\n                    at waitForExist() - index.js:316:3",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Cannot read property 'selector' of undefined",
+      "trace" : "TypeError: Cannot read property 'selector' of undefined\n                    at waitForExist() - index.js:316:3",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8e0cbe39c8177b50531062506ca83932/url",
+      "time" : {
+        "start" : 1504090106619,
+        "stop" : 1504090111059,
+        "duration" : 4440
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35258c6ff806cb3c",
+        "name" : "Request",
+        "source" : "35258c6ff806cb3c.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "f6154b42b61405eb",
+        "name" : "Response",
+        "source" : "f6154b42b61405eb.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/8e0cbe39c8177b50531062506ca83932/screenshot",
+      "time" : {
+        "start" : 1504090111067,
+        "stop" : 1504090111618,
+        "duration" : 551
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d95f1c3398ed9a98",
+        "name" : "Screenshot",
+        "source" : "d95f1c3398ed9a98.png",
+        "type" : "image/png",
+        "size" : 165920
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have booked the 1st available delivery slot"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Cannot read property 'selector' of undefined",
+    "trace" : "TypeError: Cannot read property 'selector' of undefined\n                    at waitForExist() - index.js:316:3",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "bbea026c42394067.json",
+  "parameterValues" : [ ]
+}

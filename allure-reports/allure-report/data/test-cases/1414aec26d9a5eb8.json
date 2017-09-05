@@ -1,0 +1,137 @@
+{
+  "uid" : "1414aec26d9a5eb8",
+  "name" : "I am on the grocery website",
+  "fullName" : "login Login valid credentials.I am on the grocery website",
+  "historyId" : "61f90aefb49f0795d9e568cc292788e8",
+  "time" : {
+    "start" : 1504087492360,
+    "stop" : 1504087504873,
+    "duration" : 12513
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f7f1e4c4fa1776bae8d8578df222ed6e/url",
+      "time" : {
+        "start" : 1504087492369,
+        "stop" : 1504087504840,
+        "duration" : 12471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb4ed8945c705e61",
+        "name" : "Request",
+        "source" : "fb4ed8945c705e61.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "cca12431cf9384c0",
+        "name" : "Response",
+        "source" : "cca12431cf9384c0.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on the grocery website"
+  }, {
+    "name" : "package",
+    "value" : "login Login valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dea8fc1d6744e899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087189061,
+        "stop" : 1504087201461,
+        "duration" : 12400
+      }
+    }, {
+      "uid" : "63afe9430368207f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087048403,
+        "stop" : 1504087060239,
+        "duration" : 11836
+      }
+    }, {
+      "uid" : "a9228ed0764a089c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504086863646,
+        "stop" : 1504086874122,
+        "duration" : 10476
+      }
+    }, {
+      "uid" : "ec6aa866d3e489ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504080909652,
+        "stop" : 1504080918532,
+        "duration" : 8880
+      }
+    }, {
+      "uid" : "8e63cf696e34f91c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504021431340,
+        "stop" : 1504021438240,
+        "duration" : 6900
+      }
+    }, {
+      "uid" : "4b267b13bb77f447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504020175781,
+        "stop" : 1504020180959,
+        "duration" : 5178
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "1414aec26d9a5eb8.json",
+  "parameterValues" : [ ]
+}

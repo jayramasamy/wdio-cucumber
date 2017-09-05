@@ -1,0 +1,182 @@
+{
+  "uid" : "98f6cd08f63917ad",
+  "name" : "I have logged in with valid credentials",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I have logged in with valid credentials",
+  "historyId" : "7fb35b8f77578e27052ff509617d8d5d",
+  "time" : {
+    "start" : 1504165347266,
+    "stop" : 1504165354999,
+    "duration" : 7733
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "An element could not be located on the page using the given search parameters (\"input[type=email]\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\"input[type=email]\").\n                    at setValue(\"input[type=email]\", \"jaytestuk1@mailinator.com\") - at elements(\"input[type=email]\") - setValue.js:29:17",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "An element could not be located on the page using the given search parameters (\"input[type=email]\").",
+      "trace" : "Error: An element could not be located on the page using the given search parameters (\"input[type=email]\").\n                    at setValue(\"input[type=email]\", \"jaytestuk1@mailinator.com\") - at elements(\"input[type=email]\") - setValue.js:29:17",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e9a0ec5013b8066391e420d3996326f6/url",
+      "time" : {
+        "start" : 1504165347276,
+        "stop" : 1504165354013,
+        "duration" : 6737
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f72adab32fbd813",
+        "name" : "Request",
+        "source" : "7f72adab32fbd813.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "7f844e1dd5af706e",
+        "name" : "Response",
+        "source" : "7f844e1dd5af706e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e9a0ec5013b8066391e420d3996326f6/url",
+      "time" : {
+        "start" : 1504165354025,
+        "stop" : 1504165354396,
+        "duration" : 371
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "befd09cffade53d5",
+        "name" : "Request",
+        "source" : "befd09cffade53d5.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "c6297c51e745be2e",
+        "name" : "Response",
+        "source" : "c6297c51e745be2e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e9a0ec5013b8066391e420d3996326f6/elements",
+      "time" : {
+        "start" : 1504165354404,
+        "stop" : 1504165354431,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d421d75e52551e09",
+        "name" : "Request",
+        "source" : "d421d75e52551e09.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "287d8424b99fe5ab",
+        "name" : "Response",
+        "source" : "287d8424b99fe5ab.json",
+        "type" : "application/json",
+        "size" : 89
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e9a0ec5013b8066391e420d3996326f6/screenshot",
+      "time" : {
+        "start" : 1504165354437,
+        "stop" : 1504165354971,
+        "duration" : 534
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d36fa7459532b58",
+        "name" : "Screenshot",
+        "source" : "8d36fa7459532b58.png",
+        "type" : "image/png",
+        "size" : 115453
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have logged in with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "An element could not be located on the page using the given search parameters (\"input[type=email]\").",
+    "trace" : "Error: An element could not be located on the page using the given search parameters (\"input[type=email]\").\n                    at setValue(\"input[type=email]\", \"jaytestuk1@mailinator.com\") - at elements(\"input[type=email]\") - setValue.js:29:17",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "98f6cd08f63917ad.json",
+  "parameterValues" : [ ]
+}

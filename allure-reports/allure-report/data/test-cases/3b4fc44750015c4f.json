@@ -1,0 +1,166 @@
+{
+  "uid" : "3b4fc44750015c4f",
+  "name" : "I click on the my orders link on the footer",
+  "fullName" : "Footer navigation links Anonymous user click on my orders link on the footer.I click on the my orders link on the footer",
+  "historyId" : "f6ec5a99e2ddbf4c0aae63c60108ff25",
+  "time" : {
+    "start" : 1504087942635,
+    "stop" : 1504087946848,
+    "duration" : 4213
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/element",
+      "time" : {
+        "start" : 1504087942643,
+        "stop" : 1504087942661,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ffd7444cf1689c60",
+        "name" : "Request",
+        "source" : "ffd7444cf1689c60.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "5a7996e16ae2a1f3",
+        "name" : "Response",
+        "source" : "5a7996e16ae2a1f3.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/element/0.2975679294468645-1/click",
+      "time" : {
+        "start" : 1504087942662,
+        "stop" : 1504087946842,
+        "duration" : 4180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23813b7d5c97835e",
+        "name" : "Response",
+        "source" : "23813b7d5c97835e.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the my orders link on the footer"
+  }, {
+    "name" : "package",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a5c6d14bcac6a9e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087505575,
+        "stop" : 1504087508492,
+        "duration" : 2917
+      }
+    }, {
+      "uid" : "4fb43e1234e05421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087200680,
+        "stop" : 1504087206126,
+        "duration" : 5446
+      }
+    }, {
+      "uid" : "9d42d0872a0f36f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087059316,
+        "stop" : 1504087063698,
+        "duration" : 4382
+      }
+    }, {
+      "uid" : "b0356306d6568f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504086874865,
+        "stop" : 1504086879618,
+        "duration" : 4753
+      }
+    }, {
+      "uid" : "e4be2291143056df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504080918239,
+        "stop" : 1504080921499,
+        "duration" : 3260
+      }
+    }, {
+      "uid" : "8ac73e48a6d111b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504021438412,
+        "stop" : 1504021443887,
+        "duration" : 5475
+      }
+    }, {
+      "uid" : "bd8b976f2c00b6a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504020182629,
+        "stop" : 1504020189397,
+        "duration" : 6768
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "3b4fc44750015c4f.json",
+  "parameterValues" : [ ]
+}

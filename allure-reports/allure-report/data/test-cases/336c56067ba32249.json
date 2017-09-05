@@ -1,0 +1,122 @@
+{
+  "uid" : "336c56067ba32249",
+  "name" : "I have booked the 1st available delivery slot",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I have booked the 1st available delivery slot",
+  "historyId" : "f1367a07d5decdc685dc43b15401bee6",
+  "time" : {
+    "start" : 1504090396938,
+    "stop" : 1504090401232,
+    "duration" : 4294
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "selector needs to be typeof `string`",
+    "trace" : "Error: selector needs to be typeof `string`\n                    at elements() - index.js:316:3",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "selector needs to be typeof `string`",
+      "trace" : "Error: selector needs to be typeof `string`\n                    at elements() - index.js:316:3",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/65ee25d8929bcc906ecc45afc73e353f/url",
+      "time" : {
+        "start" : 1504090396942,
+        "stop" : 1504090400683,
+        "duration" : 3741
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e45ecadfa3f6d0d9",
+        "name" : "Request",
+        "source" : "e45ecadfa3f6d0d9.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "4b14abe5bf7d092b",
+        "name" : "Response",
+        "source" : "4b14abe5bf7d092b.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/65ee25d8929bcc906ecc45afc73e353f/screenshot",
+      "time" : {
+        "start" : 1504090400694,
+        "stop" : 1504090401219,
+        "duration" : 525
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f846f369d74119ef",
+        "name" : "Screenshot",
+        "source" : "f846f369d74119ef.png",
+        "type" : "image/png",
+        "size" : 165920
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I have booked the 1st available delivery slot"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "selector needs to be typeof `string`",
+    "trace" : "Error: selector needs to be typeof `string`\n                    at elements() - index.js:316:3",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "336c56067ba32249.json",
+  "parameterValues" : [ ]
+}

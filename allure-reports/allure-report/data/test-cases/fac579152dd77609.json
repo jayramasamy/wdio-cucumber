@@ -1,0 +1,122 @@
+{
+  "uid" : "fac579152dd77609",
+  "name" : "I am signed out",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I am signed out",
+  "historyId" : "9905bc7ed4b3cd4c1b4a989b3e565ae9",
+  "time" : {
+    "start" : 1504175096697,
+    "stop" : 1504175107473,
+    "duration" : 10776
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "trace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "trace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d59b68449bbffe736d3f0b65f395ab9c/element",
+      "time" : {
+        "start" : 1504175096700,
+        "stop" : 1504175096720,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f907815e7fb619b1",
+        "name" : "Request",
+        "source" : "f907815e7fb619b1.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "13cc613a40289e2f",
+        "name" : "Response",
+        "source" : "13cc613a40289e2f.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/d59b68449bbffe736d3f0b65f395ab9c/screenshot",
+      "time" : {
+        "start" : 1504175106729,
+        "stop" : 1504175107468,
+        "duration" : 739
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23d5bf0d1cf9d546",
+        "name" : "Screenshot",
+        "source" : "23d5bf0d1cf9d546.png",
+        "type" : "image/png",
+        "size" : 427626
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am signed out"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "trace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "fac579152dd77609.json",
+  "parameterValues" : [ ]
+}

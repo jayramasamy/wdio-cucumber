@@ -1,0 +1,206 @@
+{
+  "uid" : "8644205ee25e444a",
+  "name" : "I find the item title",
+  "fullName" : "Sanity Test Golden Path sanity test for a single order.I find the item title",
+  "historyId" : "c25ddf86a5f4b86ce0475632635e2642",
+  "time" : {
+    "start" : 1504100462899,
+    "stop" : 1504100464879,
+    "duration" : 1980
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "invalid selector: An invalid or illegal selector was specified",
+    "trace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"0.6469392295143717-3\") - index.js:316:3",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "invalid selector: An invalid or illegal selector was specified",
+      "trace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"0.6469392295143717-3\") - index.js:316:3",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/37a7f99ffab5560f386c68d48f801177/elements",
+      "time" : {
+        "start" : 1504100462909,
+        "stop" : 1504100464154,
+        "duration" : 1245
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ee6fa25af097aaf",
+        "name" : "Request",
+        "source" : "9ee6fa25af097aaf.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "5ab88e75d05941f",
+        "name" : "Response",
+        "source" : "5ab88e75d05941f.json",
+        "type" : "application/json",
+        "size" : 1718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/37a7f99ffab5560f386c68d48f801177/elements",
+      "time" : {
+        "start" : 1504100464157,
+        "stop" : 1504100464203,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "759292ddbc4336e0",
+        "name" : "Request",
+        "source" : "759292ddbc4336e0.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "4f61747ab6a9e8c1",
+        "name" : "Response",
+        "source" : "4f61747ab6a9e8c1.json",
+        "type" : "application/json",
+        "size" : 1718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/37a7f99ffab5560f386c68d48f801177/element/0.6469392295143717-3/text",
+      "time" : {
+        "start" : 1504100464271,
+        "stop" : 1504100464320,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d07728ba925fdc96",
+        "name" : "Response",
+        "source" : "d07728ba925fdc96.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/37a7f99ffab5560f386c68d48f801177/element",
+      "time" : {
+        "start" : 1504100464325,
+        "stop" : 1504100464364,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca5de7c772c3ec30",
+        "name" : "Request",
+        "source" : "ca5de7c772c3ec30.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "b6aa08cb6aa920d3",
+        "name" : "Response",
+        "source" : "b6aa08cb6aa920d3.json",
+        "type" : "application/json",
+        "size" : 523
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/37a7f99ffab5560f386c68d48f801177/screenshot",
+      "time" : {
+        "start" : 1504100464366,
+        "stop" : 1504100464867,
+        "duration" : 501
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e4dadbde06edcbd",
+        "name" : "Screenshot",
+        "source" : "4e4dadbde06edcbd.png",
+        "type" : "image/png",
+        "size" : 95199
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "testMethod",
+    "value" : "I find the item title"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Test Golden Path sanity test for a single order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "message" : "invalid selector: An invalid or illegal selector was specified",
+    "trace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at element(\"0.6469392295143717-3\") - index.js:316:3",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "source" : "8644205ee25e444a.json",
+  "parameterValues" : [ ]
+}

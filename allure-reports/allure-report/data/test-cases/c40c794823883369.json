@@ -1,0 +1,139 @@
+{
+  "uid" : "c40c794823883369",
+  "name" : "I should be taken to sign in page",
+  "fullName" : "Footer navigation links Anonymous user click on my orders link on the footer.I should be taken to sign in page",
+  "historyId" : "ce73797bb4bbc51db41820f97031679b",
+  "time" : {
+    "start" : 1504087946849,
+    "stop" : 1504087946871,
+    "duration" : 22
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/e72d5d34a8f1e18284b4fcb05f96faa1/url",
+      "time" : {
+        "start" : 1504087946854,
+        "stop" : 1504087946865,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "746b0d9090469caf",
+        "name" : "Response",
+        "source" : "746b0d9090469caf.json",
+        "type" : "application/json",
+        "size" : 199
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should be taken to sign in page"
+  }, {
+    "name" : "package",
+    "value" : "Footer navigation links Anonymous user click on my orders link on the footer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c536f9e58c8e0b3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087508497,
+        "stop" : 1504087508527,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "7ebf23f692a77b47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087206130,
+        "stop" : 1504087206165,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "81105a5cef2df05f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504087063702,
+        "stop" : 1504087063728,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "b9d8825b564c9d91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504086879621,
+        "stop" : 1504086879659,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "8202de777006c07d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504080921501,
+        "stop" : 1504080921550,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "bf85e271c804baed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504021443890,
+        "stop" : 1504021443919,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "7e31c8144b9c99e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504020189399,
+        "stop" : 1504020189416,
+        "duration" : 17
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "c40c794823883369.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,7 @@
+ppe:
+  pl:
+    base_url: 'https://ezakupy.tesco.pl'
+    country_code: 'en-GB'
+  uk:
+    base_url: 'https://www.tesco.com/groceries/en-GB'
+    country_code: 'en-GB'
